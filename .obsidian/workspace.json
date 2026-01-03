@@ -47,15 +47,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "CS/GitHub/Commands.canvas",
+                "file": "CS/Algorithms/Algorithms_Overview.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 0,
+                  "x": -372.5,
+                  "y": -168.22499994087218,
                   "zoom": 0
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Commands"
+              "title": "Algorithms_Overview"
             }
           }
         ],
@@ -221,19 +221,21 @@
   },
   "active": "807560d765ace82c",
   "lastOpenFiles": [
-    "CS/Systems/Systems_Overview.canvas",
+    "CS/AI&ML/AI&ML_Overview.canvas",
     "CS/GitHub/Commands.canvas",
+    "attachments/Git vs GitHub vs GitLab.png",
+    "attachments/C++_8020% Rule.png",
+    "attachments/Git Commands.png",
+    "CS/Systems/Systems_Overview.canvas",
     "CS/GitHub",
     "README.md",
     "Obsidian_Vault_Second_Brain/README.md",
     "Obsidian_Vault_Second_Brain",
     "CS/Robotics",
     "CS/Algorithms/Algorithms_Overview.canvas",
-    "attachments/C++_8020% Rule.png",
     "Best Youtubers Academics/Channel list.md",
     "Best Youtubers Academics",
     "CS/Algorithms/Divide and conquer.md",
-    "CS/AI&ML/AI&ML_Overview.canvas",
     "CS/Systems/Operating System/OS Overview.md",
     "attachments/Systems holistic view.png",
     "attachments/Pasted image 20260103004012.png",

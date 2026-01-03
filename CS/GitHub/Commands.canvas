@@ -1,6 +1,11 @@
 {
 	"nodes":[
-		{"id":"a50d4b234deac75b","x":-100,"y":-200,"width":250,"height":420,"type":"text","text":"**GitHub** is a cloud platform for **version control** where Git tracks code history through repositories, branches, commits, and merges.  \nIt enables **collaboration and quality control** using pull requests, reviews, issues, projects, and discussions.  \nIt supports the **full software lifecycle** with CI CD via Actions, security scanning, releases, documentation, and open source contribution."}
+		{"id":"a50d4b234deac75b","type":"text","text":"**GitHub** is a cloud platform for **version control** where Git tracks code history through repositories, branches, commits, and merges.  \nIt enables **collaboration and quality control** using pull requests, reviews, issues, projects, and discussions.  \nIt supports the **full software lifecycle** with CI CD via Actions, security scanning, releases, documentation, and open source contribution.","x":-100,"y":-200,"width":250,"height":420},
+		{"id":"75f49f7dd72d0101","type":"file","file":"attachments/Git Commands.png","x":-620,"y":-320,"width":332,"height":400},
+		{"id":"a519d61be0916c0e","type":"file","file":"attachments/Git vs GitHub vs GitLab.png","x":-200,"y":-540,"width":520,"height":260}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"cb55ade706b0f5df","fromNode":"75f49f7dd72d0101","fromSide":"right","toNode":"a50d4b234deac75b","toSide":"left"},
+		{"id":"8a5515736792bd1e","fromNode":"75f49f7dd72d0101","fromSide":"top","toNode":"a519d61be0916c0e","toSide":"bottom"}
+	]
 }
