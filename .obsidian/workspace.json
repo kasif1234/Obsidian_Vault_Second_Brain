@@ -45,10 +45,17 @@
             "id": "807560d765ace82c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "canvas",
+              "state": {
+                "file": "CS/GitHub/Commands.canvas",
+                "viewState": {
+                  "x": 134.5,
+                  "y": -160,
+                  "zoom": -0.4777120938144566
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Commands"
             }
           }
         ],
@@ -215,6 +222,8 @@
   "active": "807560d765ace82c",
   "lastOpenFiles": [
     "CS/AI&ML/AI&ML_Overview.canvas",
+    "attachments/RAG_Detailed.png",
+    "attachments/RAG.png",
     "attachments/AI-Holistic-View.png",
     "CS/Algorithms/C++ Explained.md",
     "CS/Algorithms/Algorithms_Overview.canvas",
@@ -237,8 +246,6 @@
     "attachments/Systems holistic view.png",
     "attachments/Pasted image 20260103004012.png",
     "attachments/Systems 5 steps holistic view.png",
-    "attachments/ML roadmap.png",
-    "attachments/Pasted image 20260103003004.png",
     "CS/Systems/Systems_Overview.md",
     "CS/Foundations/Probability/Probability Overview.md",
     "attachments",

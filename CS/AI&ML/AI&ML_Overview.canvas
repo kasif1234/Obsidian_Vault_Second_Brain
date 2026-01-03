@@ -2,10 +2,16 @@
 	"nodes":[
 		{"id":"386a8701bf987091","type":"text","text":"AI/ML","x":-125,"y":-30,"width":250,"height":60},
 		{"id":"bc591a6664370b03","type":"file","file":"attachments/AI-Holistic-View.png","x":-460,"y":-484,"width":400,"height":224},
-		{"id":"bb04a649013de0a9","type":"file","file":"attachments/ML roadmap.png","x":-880,"y":-370,"width":372,"height":400}
+		{"id":"bb04a649013de0a9","type":"file","file":"attachments/ML roadmap.png","x":-880,"y":-370,"width":372,"height":400},
+		{"id":"31338364c7da54c9","type":"file","file":"attachments/RAG.png","x":240,"y":-620,"width":464,"height":232},
+		{"id":"ebc1ea9c28fe9913","type":"file","file":"attachments/RAG_Detailed.png","x":272,"y":-255,"width":400,"height":303},
+		{"id":"40d5debcc2b6d2a4","x":0,"y":-320,"width":250,"height":60,"type":"text","text":"Applications"}
 	],
 	"edges":[
 		{"id":"a119ff6d87ce5d42","fromNode":"386a8701bf987091","fromSide":"left","toNode":"bb04a649013de0a9","toSide":"right"},
-		{"id":"074db354c4f96eae","fromNode":"386a8701bf987091","fromSide":"top","toNode":"bc591a6664370b03","toSide":"bottom"}
+		{"id":"074db354c4f96eae","fromNode":"386a8701bf987091","fromSide":"top","toNode":"bc591a6664370b03","toSide":"bottom"},
+		{"id":"2e4e32a8aa4a84b9","fromNode":"ebc1ea9c28fe9913","fromSide":"top","toNode":"31338364c7da54c9","toSide":"bottom"},
+		{"id":"01f5b970a9c3d1ed","fromNode":"386a8701bf987091","fromSide":"top","toNode":"40d5debcc2b6d2a4","toSide":"bottom"},
+		{"id":"7109aa73c0990ff8","fromNode":"40d5debcc2b6d2a4","fromSide":"top","toNode":"31338364c7da54c9","toSide":"left"}
 	]
 }
