@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"633318fb0e651bae","type":"text","text":"**Algorithm**: a finite, step-by-step procedure that transforms input into correct output to solve a well-defined problem.","x":-177,"y":-120,"width":250,"height":152},
+		{"id":"2185defe79312d1d","type":"text","text":"","x":-488,"y":-204,"width":250,"height":60},
+		{"id":"d2f83f37918d9a4f","type":"file","file":"attachments/C++_8020% Rule.png","x":-818,"y":-400,"width":580,"height":326},
+		{"id":"c752c1050c3ab367","type":"text","text":"https://www.youtube.com/watch?v=BlDXiRaNjLU","x":-778,"y":2,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"c97c13ae096d6df9","fromNode":"c752c1050c3ab367","fromSide":"top","toNode":"d2f83f37918d9a4f","toSide":"bottom"}
+	]
+}

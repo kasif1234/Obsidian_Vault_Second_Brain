@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"386a8701bf987091","type":"text","text":"AI/ML","x":-125,"y":-30,"width":250,"height":60},
+		{"id":"bb04a649013de0a9","type":"file","file":"attachments/ML roadmap.png","x":-860,"y":-460,"width":372,"height":400}
+	],
+	"edges":[]
+}

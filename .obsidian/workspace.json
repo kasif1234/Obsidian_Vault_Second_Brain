@@ -1,0 +1,256 @@
+{
+  "main": {
+    "id": "6b8e04be4daf430a",
+    "type": "split",
+    "children": [
+      {
+        "id": "7be45b0ae4576a28",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7232265728e2c105",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "CS/AI&ML/AI&ML_Overview.canvas",
+                "viewState": {
+                  "x": -220.35250494346053,
+                  "y": -255.59027540932698,
+                  "zoom": 0.7002656823793947
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "AI&ML_Overview"
+            }
+          },
+          {
+            "id": "4254bd3d4978fea4",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "CS/AI&ML/AI&ML_Overview.canvas",
+                "viewState": {
+                  "x": -197.5,
+                  "y": -185,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "AI&ML_Overview"
+            }
+          },
+          {
+            "id": "807560d765ace82c",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "CS/Systems/Systems_Overview.canvas",
+                "viewState": {
+                  "x": -257.5,
+                  "y": -0.5,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Systems_Overview"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "52f6436e96468ac1",
+    "type": "split",
+    "children": [
+      {
+        "id": "e56270df384d5a73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a60a7c197567ec6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b872bbb19ffdc930",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4cb8135b167e7a09",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1eae1bad183ffdad",
+    "type": "split",
+    "children": [
+      {
+        "id": "afe1a2dd7e912615",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b29d21e0d1f75af",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "ebc65d9fccd8e03b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "948377b19cffc03d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4482235c4f6fdd27",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "3eb9a2ac3dfd71fc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "attachments/Pasted image 20260103004012.png",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Pasted image 20260103004012"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "807560d765ace82c",
+  "lastOpenFiles": [
+    "Obsidian_Vault_Second_Brain/README.md",
+    "Obsidian_Vault_Second_Brain",
+    "CS/Robotics",
+    "CS/Algorithms/Algorithms_Overview.canvas",
+    "attachments/C++_8020% Rule.png",
+    "Best Youtubers Academics/Channel list.md",
+    "Best Youtubers Academics",
+    "CS/Algorithms/Divide and conquer.md",
+    "CS/AI&ML/AI&ML_Overview.canvas",
+    "CS/Systems/Systems_Overview.canvas",
+    "CS/Systems/Operating System/OS Overview.md",
+    "attachments/Systems holistic view.png",
+    "attachments/Pasted image 20260103004012.png",
+    "attachments/Systems 5 steps holistic view.png",
+    "attachments/ML roadmap.png",
+    "attachments/Pasted image 20260103003004.png",
+    "CS/Systems/Systems_Overview.md",
+    "CS/Foundations/Probability/Probability Overview.md",
+    "attachments",
+    "Untitled.md",
+    "Welcome.md",
+    "CS/Foundations/Proof Techniques",
+    "CS/Foundations/Discrete Mathematics",
+    "CS/Foundations/Logic & Computability",
+    "CS/Foundations",
+    "CS/Systems/Operating System/Untitled.canvas",
+    "CS/Databases/Transactions",
+    "CS/Databases/Query Processing",
+    "CS/Foundations/Probability/Untitled.md",
+    "Probability.md",
+    "Algorithms.md"
+  ]
+}

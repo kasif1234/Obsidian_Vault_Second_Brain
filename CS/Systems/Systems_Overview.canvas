@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"b85a39448f5ed28c","type":"text","text":"**Systems** is the study of how software is designed to run correctly and efficiently on real hardware under constraints like limited resources, concurrency, and failures.","x":-125,"y":-160,"width":250,"height":200},
+		{"id":"863c7adc7785b1eb","type":"file","file":"attachments/Systems holistic view.png","x":-640,"y":-297,"width":400,"height":297},
+		{"id":"98de2c24cf0530ff","type":"file","file":"attachments/Systems 5 steps holistic view.png","x":-620,"y":40,"width":400,"height":256}
+	],
+	"edges":[
+		{"id":"4d351493d88dd1b6","fromNode":"b85a39448f5ed28c","fromSide":"top","toNode":"863c7adc7785b1eb","toSide":"right"},
+		{"id":"3602e483022c776a","fromNode":"b85a39448f5ed28c","fromSide":"bottom","toNode":"98de2c24cf0530ff","toSide":"right"}
+	]
+}
