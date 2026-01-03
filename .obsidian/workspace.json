@@ -45,10 +45,17 @@
             "id": "807560d765ace82c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "canvas",
+              "state": {
+                "file": "CS/AI&ML/AI&ML_Overview.canvas",
+                "viewState": {
+                  "x": -88,
+                  "y": -286,
+                  "zoom": -0.5476916233673831
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "AI&ML_Overview"
             }
           }
         ],
@@ -214,6 +221,8 @@
   },
   "active": "807560d765ace82c",
   "lastOpenFiles": [
+    "CS/Systems/Systems_Overview.canvas",
+    "CS/Systems/Operating System/OS Overview.md",
     "CS/Algorithms/Algorithms_Overview.canvas",
     "CS/AI&ML/AI&ML_Overview.canvas",
     "attachments/AI-Holistic-View.png",
@@ -222,13 +231,11 @@
     "attachments/RAG.png",
     "CS/Algorithms/C++ Explained.md",
     "CS/Systems/Operating System/Deadlocks.md",
-    "CS/Systems/Operating System/OS Overview.md",
     "CS/Algorithms/Divide and conquer.md",
     "attachments/VScode Extension.png",
     "attachments/Git vs GitHub vs GitLab.png",
     "attachments/C++_8020% Rule.png",
     "attachments/Git Commands.png",
-    "CS/Systems/Systems_Overview.canvas",
     "CS/GitHub",
     "README.md",
     "Obsidian_Vault_Second_Brain/README.md",
