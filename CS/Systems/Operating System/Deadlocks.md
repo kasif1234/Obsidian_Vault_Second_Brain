@@ -1,0 +1,1 @@
+A **deadlock** occurs when two or more threads are **stuck forever**, each waiting for a resource that the others are holding.

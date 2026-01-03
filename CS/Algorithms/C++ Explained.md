@@ -1,0 +1,1 @@
+RAII -> A constructor creates the object and allocates the resources for that object, whereas a destructor closes the object and [[Deadlocks]]deallocates the resources, Without RAII, programs suffer from leaks, crashes, deadlocks, and undefined behaviour because resource release depends on manual control flow rather than object lifetime.

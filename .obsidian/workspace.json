@@ -45,17 +45,10 @@
             "id": "807560d765ace82c",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "CS/Algorithms/Algorithms_Overview.canvas",
-                "viewState": {
-                  "x": -372.5,
-                  "y": -168.22499994087218,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Algorithms_Overview"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -221,8 +214,14 @@
   },
   "active": "807560d765ace82c",
   "lastOpenFiles": [
-    "CS/AI&ML/AI&ML_Overview.canvas",
+    "CS/Algorithms/C++ Explained.md",
+    "CS/Algorithms/Algorithms_Overview.canvas",
+    "CS/Systems/Operating System/Deadlocks.md",
+    "CS/Systems/Operating System/OS Overview.md",
+    "CS/Algorithms/Divide and conquer.md",
     "CS/GitHub/Commands.canvas",
+    "attachments/VScode Extension.png",
+    "CS/AI&ML/AI&ML_Overview.canvas",
     "attachments/Git vs GitHub vs GitLab.png",
     "attachments/C++_8020% Rule.png",
     "attachments/Git Commands.png",
@@ -232,11 +231,8 @@
     "Obsidian_Vault_Second_Brain/README.md",
     "Obsidian_Vault_Second_Brain",
     "CS/Robotics",
-    "CS/Algorithms/Algorithms_Overview.canvas",
     "Best Youtubers Academics/Channel list.md",
     "Best Youtubers Academics",
-    "CS/Algorithms/Divide and conquer.md",
-    "CS/Systems/Operating System/OS Overview.md",
     "attachments/Systems holistic view.png",
     "attachments/Pasted image 20260103004012.png",
     "attachments/Systems 5 steps holistic view.png",
