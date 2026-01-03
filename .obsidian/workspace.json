@@ -45,17 +45,10 @@
             "id": "807560d765ace82c",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "CS/GitHub/Commands.canvas",
-                "viewState": {
-                  "x": 134.5,
-                  "y": -160,
-                  "zoom": -0.4777120938144566
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Commands"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -221,16 +214,16 @@
   },
   "active": "807560d765ace82c",
   "lastOpenFiles": [
+    "CS/Algorithms/Algorithms_Overview.canvas",
     "CS/AI&ML/AI&ML_Overview.canvas",
+    "attachments/AI-Holistic-View.png",
+    "CS/GitHub/Commands.canvas",
     "attachments/RAG_Detailed.png",
     "attachments/RAG.png",
-    "attachments/AI-Holistic-View.png",
     "CS/Algorithms/C++ Explained.md",
-    "CS/Algorithms/Algorithms_Overview.canvas",
     "CS/Systems/Operating System/Deadlocks.md",
     "CS/Systems/Operating System/OS Overview.md",
     "CS/Algorithms/Divide and conquer.md",
-    "CS/GitHub/Commands.canvas",
     "attachments/VScode Extension.png",
     "attachments/Git vs GitHub vs GitLab.png",
     "attachments/C++_8020% Rule.png",

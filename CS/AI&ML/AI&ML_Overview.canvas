@@ -5,7 +5,7 @@
 		{"id":"bb04a649013de0a9","type":"file","file":"attachments/ML roadmap.png","x":-880,"y":-370,"width":372,"height":400},
 		{"id":"31338364c7da54c9","type":"file","file":"attachments/RAG.png","x":240,"y":-620,"width":464,"height":232},
 		{"id":"ebc1ea9c28fe9913","type":"file","file":"attachments/RAG_Detailed.png","x":272,"y":-255,"width":400,"height":303},
-		{"id":"40d5debcc2b6d2a4","x":0,"y":-320,"width":250,"height":60,"type":"text","text":"Applications"}
+		{"id":"40d5debcc2b6d2a4","type":"text","text":"Applications","x":0,"y":-320,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"a119ff6d87ce5d42","fromNode":"386a8701bf987091","fromSide":"left","toNode":"bb04a649013de0a9","toSide":"right"},
