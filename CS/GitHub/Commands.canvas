@@ -1,0 +1,6 @@
+{
+	"nodes":[
+		{"id":"a50d4b234deac75b","x":-100,"y":-200,"width":250,"height":420,"type":"text","text":"**GitHub** is a cloud platform for **version control** where Git tracks code history through repositories, branches, commits, and merges.  \nIt enables **collaboration and quality control** using pull requests, reviews, issues, projects, and discussions.  \nIt supports the **full software lifecycle** with CI CD via Actions, security scanning, releases, documentation, and open source contribution."}
+	],
+	"edges":[]
+}

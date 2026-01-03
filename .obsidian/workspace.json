@@ -47,15 +47,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "CS/Systems/Systems_Overview.canvas",
+                "file": "CS/GitHub/Commands.canvas",
                 "viewState": {
-                  "x": -257.5,
-                  "y": -0.5,
+                  "x": 0,
+                  "y": 0,
                   "zoom": 0
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Systems_Overview"
+              "title": "Commands"
             }
           }
         ],
@@ -221,6 +221,9 @@
   },
   "active": "807560d765ace82c",
   "lastOpenFiles": [
+    "CS/Systems/Systems_Overview.canvas",
+    "CS/GitHub/Commands.canvas",
+    "CS/GitHub",
     "README.md",
     "Obsidian_Vault_Second_Brain/README.md",
     "Obsidian_Vault_Second_Brain",
@@ -231,7 +234,6 @@
     "Best Youtubers Academics",
     "CS/Algorithms/Divide and conquer.md",
     "CS/AI&ML/AI&ML_Overview.canvas",
-    "CS/Systems/Systems_Overview.canvas",
     "CS/Systems/Operating System/OS Overview.md",
     "attachments/Systems holistic view.png",
     "attachments/Pasted image 20260103004012.png",
@@ -249,7 +251,6 @@
     "CS/Foundations",
     "CS/Systems/Operating System/Untitled.canvas",
     "CS/Databases/Transactions",
-    "CS/Databases/Query Processing",
     "CS/Foundations/Probability/Untitled.md",
     "Probability.md",
     "Algorithms.md"
