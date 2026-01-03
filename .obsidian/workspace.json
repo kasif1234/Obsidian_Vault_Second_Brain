@@ -45,17 +45,14 @@
             "id": "807560d765ace82c",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "CS/AI&ML/AI&ML_Overview.canvas",
-                "viewState": {
-                  "x": -88,
-                  "y": -286,
-                  "zoom": -0.5476916233673831
-                }
+                "file": "QEERI/Internship Work  - TODO.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "AI&ML_Overview"
+              "icon": "lucide-file",
+              "title": "Internship Work  - TODO"
             }
           }
         ],
@@ -116,7 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "1eae1bad183ffdad",
@@ -219,23 +216,29 @@
       "bases:Create new base": false
     }
   },
-  "active": "807560d765ace82c",
+  "active": "3a60a7c197567ec6",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260103205137.png",
+    "attachments/Pasted image 20260103205117.png",
+    "attachments/Pasted image 20260103205057.png",
+    "attachments/Pasted image 20260103205031.png",
+    "attachments/Pasted image 20260103205026.png",
+    "attachments/Pasted image 20260103202302.png",
+    "attachments/Pasted image 20260103201528.png",
     "CS/Systems/Systems_Overview.canvas",
-    "CS/Systems/Operating System/OS Overview.md",
+    "QEERI/Internship Work  - TODO.md",
+    "QEERI",
+    "CS/GitHub/Commands.canvas",
     "CS/Algorithms/Algorithms_Overview.canvas",
     "CS/AI&ML/AI&ML_Overview.canvas",
+    "CS/Systems/Operating System/OS Overview.md",
     "attachments/AI-Holistic-View.png",
-    "CS/GitHub/Commands.canvas",
     "attachments/RAG_Detailed.png",
     "attachments/RAG.png",
     "CS/Algorithms/C++ Explained.md",
     "CS/Systems/Operating System/Deadlocks.md",
     "CS/Algorithms/Divide and conquer.md",
     "attachments/VScode Extension.png",
-    "attachments/Git vs GitHub vs GitLab.png",
-    "attachments/C++_8020% Rule.png",
-    "attachments/Git Commands.png",
     "CS/GitHub",
     "README.md",
     "Obsidian_Vault_Second_Brain/README.md",
@@ -243,9 +246,6 @@
     "CS/Robotics",
     "Best Youtubers Academics/Channel list.md",
     "Best Youtubers Academics",
-    "attachments/Systems holistic view.png",
-    "attachments/Pasted image 20260103004012.png",
-    "attachments/Systems 5 steps holistic view.png",
     "CS/Systems/Systems_Overview.md",
     "CS/Foundations/Probability/Probability Overview.md",
     "attachments",
@@ -256,7 +256,6 @@
     "CS/Foundations/Logic & Computability",
     "CS/Foundations",
     "CS/Systems/Operating System/Untitled.canvas",
-    "CS/Databases/Transactions",
     "CS/Foundations/Probability/Untitled.md",
     "Probability.md",
     "Algorithms.md"
