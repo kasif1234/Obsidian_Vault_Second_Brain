@@ -1,4 +1,4 @@
-Fiverr Affiliate -> Push people to join fiverr
+Fiverr Affiliate -> Push people to join Fiverr -> (Comments + Description)
 - **Skills are validated in real conditions**  
     Sellers apply theory; buyers get solutions that actually work under constraints.
     
@@ -30,7 +30,11 @@ Fiverr Affiliate -> Push people to join fiverr
     Buyers turn ideas into implementations; sellers learn how abstract knowledge becomes value.
 
 ===========================================================
+==READ THESE FOR IDEAS/ MAKE THESE==
 1. Obsidian + VScode + Github
-2. link it to fiverr, tell them why its crucial to apply your learned skills to fiverr
+2. link it to Fiverr, tell them why its crucial to apply your learned skills to Fiverr
 3. Share your workflow for QEERI Work
-4. You started doing a stanford Algo course
+4. You started doing a Stanford Algo course
+5. How Academic Skills Become Paid Work -> (Excel List)
+6. Building the perfect Portfolio
+7. **How to Build Memory That Doesn’t Decay (An Academic System)**
