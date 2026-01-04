@@ -5,7 +5,8 @@
 		{"id":"d2f83f37918d9a4f","type":"file","file":"attachments/C++_8020% Rule.png","x":-818,"y":-400,"width":580,"height":326},
 		{"id":"2f60faf26cc70ca2","type":"text","text":"#include <iostream>\n[[C++ Explained]]\nclass Demo {\npublic:\n    Demo() {\n        std::cout << \"Constructor\\n\";\n    }\n\n    ~Demo() {\n        std::cout << \"Destructor\\n\";\n    }\n};\n\nint main() {\n    {\n        Demo d;\n    }\n}\n","x":-839,"y":-1000,"width":537,"height":500},
 		{"id":"c752c1050c3ab367","type":"text","text":"Youtuber \"Flash Bytes\" https://www.youtube.com/watch?v=BlDXiRaNjLU","x":-818,"y":-44,"width":415,"height":60},
-		{"id":"e38a7c97ef69503b","type":"text","text":"Practice C++ over here: https://www.w3schools.com/cpp/cpp_exercises.asp","x":20,"y":-400,"width":457,"height":78}
+		{"id":"e38a7c97ef69503b","type":"text","text":"Practice C++ over here: https://www.w3schools.com/cpp/cpp_exercises.asp","x":20,"y":-400,"width":457,"height":78},
+		{"id":"487bb67d8ab127e9","type":"file","file":"attachments/Python_8020%_Rule.png","x":-807,"y":120,"width":569,"height":320}
 	],
 	"edges":[
 		{"id":"c97c13ae096d6df9","fromNode":"c752c1050c3ab367","fromSide":"top","toNode":"d2f83f37918d9a4f","toSide":"bottom"},

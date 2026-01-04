@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"dc4ee0fef4efe1cf","type":"text","text":"QEERI WORK","x":-225,"y":-19,"width":250,"height":60},
+		{"id":"ba01304178268930","type":"file","file":"attachments/rag_pipeline_qeeri.png","x":-821,"y":-280,"width":596,"height":180},
+		{"id":"667b54c8e0b21139","type":"file","file":"attachments/structured json output.png","x":-100,"y":-364,"width":400,"height":264},
+		{"id":"298e125f5992fba7","type":"file","file":"attachments/Actual_results_running_rag_pipeline.png","x":-740,"y":-540,"width":590,"height":157}
+	],
+	"edges":[
+		{"id":"2132bbbc4ef95ba1","fromNode":"ba01304178268930","fromSide":"right","toNode":"667b54c8e0b21139","toSide":"left"},
+		{"id":"7653ce7443ee42e0","fromNode":"dc4ee0fef4efe1cf","fromSide":"top","toNode":"ba01304178268930","toSide":"bottom"},
+		{"id":"38327b93a3936bf6","fromNode":"ba01304178268930","fromSide":"top","toNode":"298e125f5992fba7","toSide":"bottom"}
+	]
+}
