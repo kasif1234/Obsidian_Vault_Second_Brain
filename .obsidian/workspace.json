@@ -11,17 +11,14 @@
             "id": "df235a90672e914e",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "QEERI/QEERI_Overview.canvas",
-                "viewState": {
-                  "x": -230.5,
-                  "y": -82.5,
-                  "zoom": -0.44765445086094385
-                }
+                "file": "QEERI/Internship Work  - TODO.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "QEERI_Overview"
+              "icon": "lucide-file",
+              "title": "Internship Work  - TODO"
             }
           }
         ]
@@ -186,11 +183,11 @@
   },
   "active": "df235a90672e914e",
   "lastOpenFiles": [
-    "QEERI/Internship Work  - TODO.md",
-    "CS/Algorithms/Algorithms_Overview.canvas",
-    "QEERI/QEERI_Overview.canvas",
-    "CS/Systems/Systems_Overview.canvas",
     "QEERI/Machine Learning.md",
+    "QEERI/Internship Work  - TODO.md",
+    "QEERI/QEERI_Overview.canvas",
+    "CS/Algorithms/Algorithms_Overview.canvas",
+    "CS/Systems/Systems_Overview.canvas",
     "attachments/undergrad_Research_tips.png",
     "attachments/Pasted image 20260105111038.png",
     "attachments/Pasted image 20260105103423.png",

@@ -13,8 +13,15 @@ These are pointers, take them deep and carry out intricate analysis
 4. Machine Learning Work 
 	1. Output -> Predict best Polymer
 
+====
+Just extract for now
+Later we will find categories
+5 columns for text to parse, 5th one being reference
+physics informed ML, read till "of" in the title
+
 ==Questions==
 What are we going to be Predicting?
+- What would be considered a “useful” ML outcome from a materials science perspective: ranking, trend discovery, mechanism separation, or performance prediction?
 How will translate into a paper?
 
 ==============================================================
