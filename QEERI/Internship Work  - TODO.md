@@ -1,7 +1,7 @@
 These are pointers, take them deep and carry out intricate analysis
 1. Implement RAG system in python with local LLM
 	1. Output -> JSON with filled parameters
-	2. ==Improve implementation by using given libraires== 
+	2. ==Improve Implementation by using given libraires== 
 2. Call the graph2table API using snippets
 	1. Output -> CSV
 	2. ==Research Conductive Polymers Extract them, then do a plot Together==
@@ -16,12 +16,25 @@ These are pointers, take them deep and carry out intricate analysis
 
 ==============================================================
 Example Of Good Snippets
-1. Tuning charge transport dynamics via clustering of doping in organic semiconductor thin films
+1. (GDOS) Tuning charge transport dynamics via clustering of doping in organic semiconductor thin films
 ![[Pasted image 20260103201528.png]]
-2. Tuning charge transport dynamics via clustering of doping in organic semiconductor thin films [Same as above (1)]
+2. (GDOS) Tuning charge transport dynamics via clustering of doping in organic semiconductor thin films [Same as above (1)]
 ![[Pasted image 20260103202302.png]] 
 3. Charge-transport model for conducting polymers
+![[Pasted image 20260105072206.png]]
 ![[Pasted image 20260103205031.png]]
+
 ![[Pasted image 20260103205057.png]]
+![[Pasted image 20260105072905.png]]
 ![[Pasted image 20260103205117.png]]
+![[Pasted image 20260105072339.png]]
+
+
 ![[Pasted image 20260103205137.png]]
+
+
+==================
+OUTCOME
+![[Pasted image 20260105095631.png]]
+
+![[Pasted image 20260105103013.png]]

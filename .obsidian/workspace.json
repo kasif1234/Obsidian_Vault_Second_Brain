@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "QEERI/Internship Work  - TODO.md",
+                "file": "QEERI/Machine Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Internship Work  - TODO"
+              "title": "Machine Learning"
             }
           }
         ]
@@ -183,8 +183,16 @@
   },
   "active": "7232265728e2c105",
   "lastOpenFiles": [
-    "QEERI/QEERI_Overview.canvas",
+    "attachments/Pasted image 20260105103423.png",
     "QEERI/Internship Work  - TODO.md",
+    "CS/GitHub/Commands.canvas",
+    "QEERI/Machine Learning.md",
+    "attachments/Pasted image 20260105103013.png",
+    "attachments/Pasted image 20260105095631.png",
+    "attachments/Pasted image 20260105072905.png",
+    "attachments/Pasted image 20260105072339.png",
+    "attachments/Pasted image 20260105072206.png",
+    "QEERI/QEERI_Overview.canvas",
     "Best Youtubers Academics/Fiverr + Video Ideas.md",
     "CS/Algorithms/Algorithms_Overview.canvas",
     "QEERI/RAG.md",
@@ -193,16 +201,10 @@
     "attachments/Pasted image 20260104094052.png",
     "attachments/Pasted image 20260104094035.png",
     "attachments/Pasted image 20260104093745.png",
-    "attachments/Pasted image 20260104093322.png",
-    "attachments/Pasted image 20260104092927.png",
     "CS/AI&ML/AI&ML_Overview.canvas",
-    "attachments/Python_8020%_Rule.png",
-    "attachments/Actual_results_running_rag_pipeline.png",
     "CS/Systems/Operating System/Memory.md",
-    "attachments/structured json output.png",
     "CS/Systems/Systems_Overview.canvas",
     "QEERI",
-    "CS/GitHub/Commands.canvas",
     "CS/Systems/Operating System/OS Overview.md",
     "CS/Algorithms/C++ Explained.md",
     "CS/Systems/Operating System/Deadlocks.md",
