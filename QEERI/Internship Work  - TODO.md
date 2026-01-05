@@ -1,10 +1,13 @@
 These are pointers, take them deep and carry out intricate analysis
 1. Implement RAG system in python with local LLM
 	1. Output -> JSON with filled parameters
+	2. ==Improve implementation by using given libraires== 
 2. Call the graph2table API using snippets
 	1. Output -> CSV
+	2. ==Research Conductive Polymers Extract them, then do a plot Together==
 3. Show to Doctor 
 	1. Output -> 20 Figures + JSONS & 1 big graph with all results combined {Matplotlib/Excel}
+	2. ==Figures + One Main plot + RAG System==
 4. Machine Learning Work 
 	1. Output -> Predict best Polymer
 
