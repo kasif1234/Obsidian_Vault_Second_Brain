@@ -1,3 +1,5 @@
+==OBJECTIVES==
+
 These are pointers, take them deep and carry out intricate analysis
 1. Implement RAG system in python with local LLM
 	1. Output -> JSON with filled parameters
@@ -6,13 +8,14 @@ These are pointers, take them deep and carry out intricate analysis
 	1. Output -> CSV
 	2. ==Research Conductive Polymers Extract them, then do a plot Together==
 3. Show to Doctor 
-	1. Output -> 20 Figures + JSONS & 1 big graph with all results combined {Matplotlib/Excel}
+	1. Output -> 20 Figures + JSONS & 1 big graph with all results combined {MATLABS/Excel}
 	2. ==Figures + One Main plot + RAG System==
 4. Machine Learning Work 
 	1. Output -> Predict best Polymer
 
-
-
+==Questions==
+What are we going to be Predicting?
+How will translate into a paper?
 
 ==============================================================
 Example Of Good Snippets
