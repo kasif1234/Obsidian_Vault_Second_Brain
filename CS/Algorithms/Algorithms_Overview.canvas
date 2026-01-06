@@ -6,11 +6,18 @@
 		{"id":"2f60faf26cc70ca2","type":"text","text":"#include <iostream>\n[[C++ Explained]]\nclass Demo {\npublic:\n    Demo() {\n        std::cout << \"Constructor\\n\";\n    }\n\n    ~Demo() {\n        std::cout << \"Destructor\\n\";\n    }\n};\n\nint main() {\n    {\n        Demo d;\n    }\n}\n","x":-839,"y":-1000,"width":537,"height":500},
 		{"id":"c752c1050c3ab367","type":"text","text":"Youtuber \"Flash Bytes\" https://www.youtube.com/watch?v=BlDXiRaNjLU","x":-818,"y":-44,"width":415,"height":60},
 		{"id":"e38a7c97ef69503b","type":"text","text":"Practice C++ over here: https://www.w3schools.com/cpp/cpp_exercises.asp","x":20,"y":-400,"width":457,"height":78},
-		{"id":"487bb67d8ab127e9","type":"file","file":"attachments/Python_8020%_Rule.png","x":-807,"y":120,"width":569,"height":320}
+		{"id":"487bb67d8ab127e9","type":"file","file":"attachments/Python_8020%_Rule.png","x":-807,"y":120,"width":569,"height":320},
+		{"id":"69602ca600f5d124","type":"file","file":"attachments/insertion sort.png","x":82,"y":560,"width":395,"height":400},
+		{"id":"e9beae0ecfe85981","type":"file","file":"attachments/bubble sort.png","x":574,"y":560,"width":320,"height":515},
+		{"id":"8194d0887dd4bfcb","type":"file","file":"attachments/merge sort.png","x":126,"y":80,"width":394,"height":400},
+		{"id":"2e95aede0bcf99f3","type":"file","file":"attachments/selection sort.png","x":-391,"y":560,"width":428,"height":400},
+		{"id":"917c98501f3441cc","type":"file","file":"attachments/Pasted image 20260105205054.png","x":574,"y":80,"width":400,"height":348},
+		{"id":"fc1ccff41e15ec44","type":"file","file":"attachments/Recursion tree.png","x":-391,"y":1040,"width":902,"height":360}
 	],
 	"edges":[
 		{"id":"c97c13ae096d6df9","fromNode":"c752c1050c3ab367","fromSide":"top","toNode":"d2f83f37918d9a4f","toSide":"bottom"},
 		{"id":"dcfff255cdabb4a3","fromNode":"d2f83f37918d9a4f","fromSide":"top","toNode":"2f60faf26cc70ca2","toSide":"bottom"},
-		{"id":"46e7ff288256ff16","fromNode":"633318fb0e651bae","fromSide":"top","toNode":"e38a7c97ef69503b","toSide":"bottom"}
+		{"id":"46e7ff288256ff16","fromNode":"633318fb0e651bae","fromSide":"top","toNode":"e38a7c97ef69503b","toSide":"bottom"},
+		{"id":"e424d5575232000b","fromNode":"8194d0887dd4bfcb","fromSide":"right","toNode":"917c98501f3441cc","toSide":"left"}
 	]
 }
