@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"dc4ee0fef4efe1cf","type":"text","text":"QEERI WORK","x":-225,"y":-19,"width":250,"height":60},
+		{"id":"ba01304178268930","type":"file","file":"attachments/rag_pipeline_qeeri.png","x":-821,"y":-280,"width":596,"height":180},
+		{"id":"667b54c8e0b21139","type":"file","file":"attachments/structured json output.png","x":-100,"y":-364,"width":400,"height":264},
+		{"id":"298e125f5992fba7","type":"file","file":"attachments/Actual_results_running_rag_pipeline.png","x":-740,"y":-540,"width":590,"height":157},
+		{"id":"3582cd909bb2396a","type":"file","file":"attachments/undergrad_Research_tips.png","x":-440,"y":80,"width":400,"height":295},
+		{"id":"dc697e6057b0c421","type":"text","text":"BEST YOUTUBER FOR RESEARCH HELP -> https://www.youtube.com/watch?v=GhOL4H_Y0Ho","x":0,"y":154,"width":360,"height":106,"color":"2"},
+		{"id":"bedf5840d8c4e301","type":"text","text":"Get the right libraries and master how to use them from first principles so for ML -[Sciket learn/pytorch/tensorflow] etc","x":-821,"y":154,"width":250,"height":186,"color":"4"},
+		{"id":"ac5844a289f99996","type":"file","file":"attachments/Role.png","x":-831,"y":440,"width":856,"height":200}
+	],
+	"edges":[
+		{"id":"2132bbbc4ef95ba1","fromNode":"ba01304178268930","fromSide":"right","toNode":"667b54c8e0b21139","toSide":"left"},
+		{"id":"7653ce7443ee42e0","fromNode":"dc4ee0fef4efe1cf","fromSide":"top","toNode":"ba01304178268930","toSide":"bottom"},
+		{"id":"38327b93a3936bf6","fromNode":"ba01304178268930","fromSide":"top","toNode":"298e125f5992fba7","toSide":"bottom"},
+		{"id":"35d7444af880432e","fromNode":"3582cd909bb2396a","fromSide":"right","toNode":"dc697e6057b0c421","toSide":"left"}
+	]
+}

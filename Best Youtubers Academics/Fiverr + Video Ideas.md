@@ -38,3 +38,6 @@ Fiverr Affiliate -> Push people to join Fiverr -> (Comments + Description)
 5. How Academic Skills Become Paid Work -> (Excel List)
 6. Building the perfect Portfolio
 7. **How to Build Memory That Doesn’t Decay (An Academic System)**
+8. My work as a research assistant in the field of materials informatics
+9. https://youtu.be/dxPsMxUo0dc?si=E44prh85TY6RczuV -> # Modular Robotic Car with Servo Motor Control and Circuit Prototyping via Fritzing -> Link it to Fiverr and subscription
+10. 

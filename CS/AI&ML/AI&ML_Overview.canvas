@@ -5,7 +5,13 @@
 		{"id":"bb04a649013de0a9","type":"file","file":"attachments/ML roadmap.png","x":-880,"y":-370,"width":372,"height":400},
 		{"id":"31338364c7da54c9","type":"file","file":"attachments/RAG.png","x":240,"y":-620,"width":464,"height":232},
 		{"id":"ebc1ea9c28fe9913","type":"file","file":"attachments/RAG_Detailed.png","x":272,"y":-255,"width":400,"height":303},
-		{"id":"40d5debcc2b6d2a4","type":"text","text":"Applications","x":0,"y":-320,"width":250,"height":60}
+		{"id":"40d5debcc2b6d2a4","type":"text","text":"Applications","x":0,"y":-320,"width":250,"height":60},
+		{"id":"d038ea2b2b945fe9","type":"file","file":"attachments/AI System Architecture.png","x":-1073,"y":100,"width":279,"height":400},
+		{"id":"df5af674248d547f","type":"file","file":"attachments/GEN_AI.png","x":-464,"y":100,"width":322,"height":400},
+		{"id":"fc6dd11dcbde9d22","type":"file","file":"attachments/Agentic Ai Tech Stack.png","x":-142,"y":100,"width":323,"height":400},
+		{"id":"16604b181dfa38cc","type":"file","file":"attachments/Prompt Engineering Techniques.png","x":181,"y":100,"width":360,"height":400},
+		{"id":"dc3d0a0ac1f15ee6","type":"file","file":"attachments/AgentOps.png","x":541,"y":100,"width":327,"height":400},
+		{"id":"dcfd340e20eba516","type":"file","file":"attachments/Data_science_maths.png","x":-794,"y":100,"width":330,"height":400}
 	],
 	"edges":[
 		{"id":"a119ff6d87ce5d42","fromNode":"386a8701bf987091","fromSide":"left","toNode":"bb04a649013de0a9","toSide":"right"},

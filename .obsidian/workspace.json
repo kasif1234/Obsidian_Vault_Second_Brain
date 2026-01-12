@@ -4,21 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "eac2e5c14a1b8ff5",
+        "id": "2f6b22fbf811b6be",
         "type": "tabs",
         "children": [
           {
-            "id": "df235a90672e914e",
+            "id": "7275d5ed986a9d1e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "QEERI/Materials Informatics.md",
-                "mode": "source",
-                "source": false
+                "file": "Research Internships/How to Research.canvas",
+                "viewState": {
+                  "x": 357.44345031440906,
+                  "y": 162.20540380803348,
+                  "zoom": -0.03185136413637845
+                }
               },
-              "icon": "lucide-file",
-              "title": "Materials Informatics"
+              "icon": "lucide-layout-dashboard",
+              "title": "How to Research"
             }
           }
         ]
@@ -78,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 322.50418853759766
   },
   "right": {
     "id": "1eae1bad183ffdad",
@@ -94,10 +97,10 @@
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
@@ -163,7 +166,8 @@
               "title": "Outline of Pasted image 20260103004012"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -181,53 +185,63 @@
       "bases:Create new base": false
     }
   },
-  "active": "df235a90672e914e",
+  "active": "7275d5ed986a9d1e",
   "lastOpenFiles": [
-    "QEERI/Internship Work  - TODO.md",
-    "QEERI/Materials Informatics.md",
-    "CS/Algorithms/Algorithms_Overview.canvas",
-    "attachments/Recursion tree.png",
-    "attachments/Pasted image 20260105205054.png",
-    "attachments/bubble sort.png",
-    "attachments/insertion sort.png",
-    "attachments/selection sort.png",
-    "attachments/merge sort.png",
-    "CS/AI&ML/AI&ML_Overview.canvas",
-    "QEERI/Machine Learning.md",
-    "QEERI/QEERI_Overview.canvas",
-    "CS/Systems/Systems_Overview.canvas",
-    "attachments/undergrad_Research_tips.png",
-    "attachments/Pasted image 20260105111038.png",
-    "attachments/Pasted image 20260105103423.png",
-    "CS/GitHub/Commands.canvas",
-    "attachments/Pasted image 20260105103013.png",
+    "attachments/..png",
+    "attachments/EngineerVsResearch.png",
+    "Research Internships/How to Research.canvas",
+    "attachments/Masters_Roadmap.png",
+    "Research Internships/Research Tips.md",
+    "Research Internships/QCRI/QCRI.canvas",
+    "Research Internships/QEERI/Internship Work  - TODO.md",
+    "Research Internships/QCRI",
+    "Research Internships",
+    "Hackathons/QRDI X Ibedrola.md",
+    "attachments/Pasted image 20260111194151.png",
+    "attachments/Pasted image 20260111174952.png",
     "Best Youtubers Academics/Fiverr + Video Ideas.md",
-    "QEERI/RAG.md",
-    "CS/Systems/Operating System/Memory.md",
-    "QEERI",
-    "CS/Systems/Operating System/OS Overview.md",
+    "Activity/Urgent.md",
+    "Activity/Untitled.canvas",
+    "CS/AI&ML/AI&ML_Overview.canvas",
+    "attachments/AI System Architecture.png",
+    "attachments/AgentOps.png",
+    "attachments/Prompt Engineering Techniques.png",
+    "attachments/Data_science_maths.png",
+    "attachments/Agentic Ai Tech Stack.png",
+    "attachments/GEN_AI.png",
+    "Research Internships/QEERI/How to become a great Research Assistant.md",
+    "QEERI/Untitled.md",
+    "attachments/RA successs.pdf",
+    "attachments/RA success.md",
+    "attachments/RA success",
+    "Research Internships/QEERI/Machine Learning.md",
+    "Research Internships/QEERI/QEERI_Overview.canvas",
+    "Research Internships/QEERI/RAG.md",
+    "Research Internships/QEERI/Top Learnings.md",
+    "Best Youtubers Academics/Channel list.md",
+    "Research Internships/QEERI/Agentic RAG Setup.md",
+    "Hackathons/Lifelines Hackathon CMUQ.md",
+    "Hackathons/Hackathon.canvas",
+    "Hackathons",
+    "Activity/Untitled.md",
+    "Research Internships/QEERI/Materials Informatics.md",
+    "attachments/Physics-informed ML for materials science.pdf",
+    "Untitled.md",
+    "Activity",
+    "Personal",
     "CS/Algorithms/C++ Explained.md",
-    "CS/Systems/Operating System/Deadlocks.md",
     "CS/Algorithms/Divide and conquer.md",
+    "CS/Algorithms/Algorithms_Overview.canvas",
+    "CS/Systems/Operating System/Deadlocks.md",
+    "CS/Systems/Operating System/Memory.md",
+    "CS/Systems/Systems_Overview.canvas",
+    "CS/GitHub/Commands.canvas",
+    "Research Internships/QEERI",
+    "CS/Systems/Operating System/OS Overview.md",
     "CS/GitHub",
     "README.md",
     "Obsidian_Vault_Second_Brain/README.md",
-    "Obsidian_Vault_Second_Brain",
-    "CS/Robotics",
-    "Best Youtubers Academics/Channel list.md",
-    "Best Youtubers Academics",
     "CS/Systems/Systems_Overview.md",
-    "CS/Foundations/Probability/Probability Overview.md",
-    "attachments",
-    "Untitled.md",
-    "Welcome.md",
-    "CS/Foundations/Proof Techniques",
-    "CS/Foundations/Discrete Mathematics",
-    "CS/Foundations/Logic & Computability",
-    "CS/Foundations",
-    "CS/Systems/Operating System/Untitled.canvas",
-    "CS/Foundations/Probability/Untitled.md",
-    "Probability.md",
-    "Algorithms.md"
+    "CS/Systems/Operating System/Untitled.canvas"
   ]
 }

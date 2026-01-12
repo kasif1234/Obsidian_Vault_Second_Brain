@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"2a1a3e22460df8c6","type":"text","text":"Engineering is about making something work.  \nA paper is about **proving** it works, **relative to competitors**, under **fair rules**, and explaining it in a way reviewers can’t poke holes in.","x":-137,"y":-20,"width":397,"height":140},
+		{"id":"09f8badac36adca3","type":"file","file":"attachments/Masters_Roadmap.png","x":300,"y":-80,"width":323,"height":399},
+		{"id":"cb5f360757b8a841","type":"file","file":"attachments/EngineerVsResearch.png","x":-513,"y":-148,"width":359,"height":508},
+		{"id":"4b6e02abf573ff1c","type":"file","file":"attachments/..png","x":-513,"y":360,"width":359,"height":294}
+	],
+	"edges":[]
+}

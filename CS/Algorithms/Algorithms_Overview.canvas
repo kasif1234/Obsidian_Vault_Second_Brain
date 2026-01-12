@@ -12,7 +12,8 @@
 		{"id":"8194d0887dd4bfcb","type":"file","file":"attachments/merge sort.png","x":126,"y":80,"width":394,"height":400},
 		{"id":"2e95aede0bcf99f3","type":"file","file":"attachments/selection sort.png","x":-391,"y":560,"width":428,"height":400},
 		{"id":"917c98501f3441cc","type":"file","file":"attachments/Pasted image 20260105205054.png","x":574,"y":80,"width":400,"height":348},
-		{"id":"fc1ccff41e15ec44","type":"file","file":"attachments/Recursion tree.png","x":-391,"y":1040,"width":902,"height":360}
+		{"id":"fc1ccff41e15ec44","type":"file","file":"attachments/Recursion tree.png","x":-391,"y":1040,"width":902,"height":360},
+		{"id":"383c768ff276be29","type":"file","file":"attachments/Paradigms.png","x":-1450,"y":-139,"width":611,"height":250}
 	],
 	"edges":[
 		{"id":"c97c13ae096d6df9","fromNode":"c752c1050c3ab367","fromSide":"top","toNode":"d2f83f37918d9a4f","toSide":"bottom"},
