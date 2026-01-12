@@ -1,0 +1,1 @@
+For exceptional performance in Duniya & Afterlife Follow ISLAM principles (This is the reason why you are not operating at top level): https://www.youtube.com/shorts/oJP23bwy2kY
