@@ -11,14 +11,17 @@
             "id": "7275d5ed986a9d1e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "CS/AI&ML/Concepts.md",
-                "mode": "source",
-                "source": false
+                "file": "CS/AI&ML/AI&ML_Overview.canvas",
+                "viewState": {
+                  "x": -144.3568285655216,
+                  "y": 292.34473505452763,
+                  "zoom": 0.2811180852325869
+                }
               },
-              "icon": "lucide-file",
-              "title": "Concepts"
+              "icon": "lucide-layout-dashboard",
+              "title": "AI&ML_Overview"
             }
           }
         ]
@@ -184,8 +187,8 @@
   },
   "active": "7275d5ed986a9d1e",
   "lastOpenFiles": [
-    "CS/AI&ML/AI&ML_Overview.canvas",
     "CS/AI&ML/Concepts.md",
+    "CS/AI&ML/AI&ML_Overview.canvas",
     "Research Internships/How to Research.canvas",
     "attachments/HowToDoLiteratureReview.png",
     "CS/GitHub/Commands.canvas",
