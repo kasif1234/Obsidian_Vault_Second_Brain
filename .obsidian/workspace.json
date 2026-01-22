@@ -11,20 +11,32 @@
             "id": "7275d5ed986a9d1e",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "CS/AI&ML/AI&ML_Overview.canvas",
-                "viewState": {
-                  "x": -144.3568285655216,
-                  "y": 292.34473505452763,
-                  "zoom": 0.2811180852325869
-                }
+                "file": "Hackathons/Snoonu's.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "AI&ML_Overview"
+              "icon": "lucide-file",
+              "title": "Snoonu's"
+            }
+          },
+          {
+            "id": "e434780baa03713a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hackathons/Lifelines Hackathon CMUQ.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lifelines Hackathon CMUQ"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,20 +197,43 @@
       "bases:Create new base": false
     }
   },
-  "active": "7275d5ed986a9d1e",
+  "active": "e434780baa03713a",
   "lastOpenFiles": [
-    "CS/AI&ML/Concepts.md",
+    "Hackathons/QRDI X Ibedrola.md",
+    "Research Internships/QEERI/Internship Work  - TODO.md",
+    "Research Internships/QEERI/Extraction System.md",
+    "Research Internships/QEERI/Agentic RAG Setup.md",
+    "CS/Robotics/Robotics_Overview.canvas",
+    "Hackathons/Lifelines Hackathon CMUQ.md",
+    "CS/Algorithms/Algorithms_Overview.canvas",
     "CS/AI&ML/AI&ML_Overview.canvas",
+    "Research Internships/QEERI/Materials Informatics.md",
+    "attachments/Pasted image 20260117210714.png",
+    "attachments/Pasted image 20260117210702.png",
+    "attachments/Pasted image 20260117210650.png",
+    "Hackathons/Hackathon.canvas",
+    "attachments/Pasted image 20260117210617.png",
+    "Hackathons/Snoonu's.md",
+    "AI Tools/Googles Antigravity.md",
+    "attachments/Pasted image 20260115131122.png",
+    "AI Tools/AI Tools Overview.canvas",
+    "attachments/Coding Tools.png",
+    "Best Youtubers Academics/Fiverr + Video Ideas.md",
+    "AI Tools",
+    "Best Youtubers Academics/Channel list.md",
+    "Activity/Untitled.canvas",
+    "Activity/Emotion Stabilizers.md",
+    "Activity/Urgent.md",
+    "CS/AI&ML/NLP.md",
+    "CS/AI&ML/Untitled",
+    "Research Internships/QEERI/NLP Python Libraries.md",
+    "CS/AI&ML/Concepts.md",
     "Research Internships/How to Research.canvas",
     "attachments/HowToDoLiteratureReview.png",
     "CS/GitHub/Commands.canvas",
-    "Activity/Emotion Stabilizers.md",
-    "Activity/Urgent.md",
-    "CS/Algorithms/Algorithms_Overview.canvas",
     "CS/Algorithms/C++ Explained.md",
     "Research Internships/QEERI/How to become a great Research Assistant.md",
     "Research Internships/QEERI/QEERI_Overview.canvas",
-    "Research Internships/QEERI/Internship Work  - TODO.md",
     "attachments/..png",
     "attachments/EngineerVsResearch.png",
     "attachments/Masters_Roadmap.png",
@@ -206,15 +241,6 @@
     "Research Internships/QCRI/QCRI.canvas",
     "Research Internships/QCRI",
     "Research Internships",
-    "Hackathons/QRDI X Ibedrola.md",
-    "attachments/Pasted image 20260111194151.png",
-    "attachments/Pasted image 20260111174952.png",
-    "Best Youtubers Academics/Fiverr + Video Ideas.md",
-    "Activity/Untitled.canvas",
-    "attachments/AI System Architecture.png",
-    "attachments/AgentOps.png",
-    "attachments/Prompt Engineering Techniques.png",
-    "attachments/Data_science_maths.png",
     "QEERI/Untitled.md",
     "attachments/RA successs.pdf",
     "attachments/RA success.md",
@@ -222,25 +248,11 @@
     "Research Internships/QEERI/Machine Learning.md",
     "Research Internships/QEERI/RAG.md",
     "Research Internships/QEERI/Top Learnings.md",
-    "Best Youtubers Academics/Channel list.md",
-    "Research Internships/QEERI/Agentic RAG Setup.md",
-    "Hackathons/Lifelines Hackathon CMUQ.md",
-    "Hackathons/Hackathon.canvas",
     "Hackathons",
-    "Research Internships/QEERI/Materials Informatics.md",
     "attachments/Physics-informed ML for materials science.pdf",
     "Untitled.md",
     "Activity",
     "Personal",
-    "CS/Algorithms/Divide and conquer.md",
-    "CS/Systems/Operating System/Deadlocks.md",
-    "CS/Systems/Operating System/Memory.md",
-    "CS/Systems/Systems_Overview.canvas",
-    "Research Internships/QEERI",
-    "CS/Systems/Operating System/OS Overview.md",
-    "CS/GitHub",
-    "README.md",
-    "Obsidian_Vault_Second_Brain/README.md",
-    "CS/Systems/Operating System/Untitled.canvas"
+    "CS/Algorithms/Divide and conquer.md"
   ]
 }

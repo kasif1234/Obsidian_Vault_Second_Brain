@@ -58,3 +58,9 @@ OUTCOME
 Extraction from 2 papers combined {Log scaled graphs}
 ![[Pasted image 20260106201240.png]]
 ![[Pasted image 20260106201203.png]]
+
+
+18/01/2026
+19/01/2026
+20/01/2026
+polymer, solvent, dopant, doping method, doping level, film preparation method, thickness, annealing, σ, S, temperature, reference (DOI), evidence location

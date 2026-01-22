@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"91c7cf2e3bf5d080","type":"text","text":"AI Tools Overview","x":-94,"y":-43,"width":250,"height":60},
+		{"id":"5518d63eb1eac7a7","type":"file","file":"attachments/Coding Tools.png","x":-480,"y":-340,"width":400,"height":247}
+	],
+	"edges":[]
+}

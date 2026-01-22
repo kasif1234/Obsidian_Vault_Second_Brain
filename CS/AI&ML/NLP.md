@@ -1,0 +1,1 @@
+1. spaCy is ==a free, open-source library for advanced **Natural Language Processing (NLP) in Python**==. It is designed for production use, helping developers build applications that process and "understand" large volumes of text efficiently.
