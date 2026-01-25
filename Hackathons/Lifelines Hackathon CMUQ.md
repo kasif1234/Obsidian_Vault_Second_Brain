@@ -162,3 +162,512 @@ Next TODO:
 	2. User Engagement -> better user centred design and engagement strategies
 	3. RAG for trustworthy info
 2. Perform SWOT Analysis, on your idea not AI
+
+
+
+==============
+==22/01/2026==
+==Research Analysis==
+
+
+## HPS 1 – Mapping Sanitation and Hygiene Services
+
+## 1. Research and analysis – existing tools
+
+- **Kobo / ODK, UNHCR WASH KAP Mapper, other mobile surveys**
+    
+    - Kobo/ODK are widely used to collect WASH facility and KAP data offline, then sync when connectivity returns.[](https://im.unhcr.org/apps/mdc-mapper/washkap/)
+        
+    - Strengths: robust offline forms, standardized indicators, multi‑language support, and integration with dashboards for cluster coordination.[](https://im.unhcr.org/apps/mdc-mapper/washkap/)​
+        
+    - Failures: data often collected in one‑off rounds, quickly out of date in dynamic camps; enumerator‑dependent workflows limit community reporting and near‑real‑time updates.[](https://arxiv.org/html/2511.07231)
+        
+- **Community / paper mapping and OpenStreetMap‑based efforts**
+    
+    - Humanitarian teams and volunteers map latrines, taps and solid‑waste sites onto OSM or custom GIS layers, sometimes informed by UAV or satellite imagery.[](https://arxiv.org/html/2511.07231)​
+        
+    - Strengths: spatially explicit coverage, can combine with remote sensing to quantify accessibility and degradation over time.[](https://arxiv.org/html/2511.07231)​
+        
+    - Failures: requires GIS skills and connectivity; updates lag behind real‑world changes; not well linked to feedback from users about functionality, safety, or cultural acceptability.[](https://arxiv.org/html/2511.07231)​
+        
+- **Remote sensing and cholera/WASH surveillance**
+    
+    - Recent work uses semi‑supervised segmentation of shelters from UAV/satellite imagery plus overlaid point data on water points and latrines to monitor access and service shrinkage in camps.[](https://arxiv.org/html/2511.07231)​
+        
+    - Cholera outbreak guidance emphasizes community‑based surveillance, rapid reporting of suspected cases, and WASH situation reports, sometimes using simple phone or SMS channels.[](https://www.rcce-collective.net/wp-content/documents-repo/Cholera_Thematic_Kit/Implementation/GTFCC_Cholera_Outbreak_Response_Field_Manual.pdf)
+        
+    - Failures: remote sensing does not capture functionality (broken taps, unsafe latrines) or user experience; SMS reporting is rarely integrated into a unified WASH map and can raise privacy and trust issues if not well governed.[](https://www.rcce-collective.net/wp-content/documents-repo/Cholera_Thematic_Kit/Implementation/GTFCC_Cholera_Outbreak_Response_Field_Manual.pdf)
+        
+
+## 2. Gap identification (under stated constraints)
+
+- **Staleness in dynamic environments** – most systems capture static snapshots; there is limited continuous, low‑burden updating of facility status as latrines or taps fail or move.[](https://im.unhcr.org/apps/mdc-mapper/washkap/)
+    
+- **Low‑literacy, low‑connectivity user inclusion** – tools assume smartphone apps or literate enumerators; systematic mechanisms for feature‑phone, icon‑based, or in‑person mediated reporting are weak.[](https://www.rcce-collective.net/wp-content/documents-repo/Cholera_Thematic_Kit/Implementation/GTFCC_Cholera_Outbreak_Response_Field_Manual.pdf)
+    
+- **Fragmented ownership and data silos** – data are split between WASH agencies, health cluster, government and NGOs with inconsistent formats and access rules, limiting a shared, current map of services.[](https://www.rcce-collective.net/wp-content/documents-repo/Cholera_Thematic_Kit/Implementation/GTFCC_Cholera_Outbreak_Response_Field_Manual.pdf)
+    
+- **Trust, privacy, and safety** – households may fear that reporting complaints or locations could affect assistance or security; existing platforms rarely provide transparent, community‑understood data‑protection controls.[](https://www.rcce-collective.net/wp-content/documents-repo/Cholera_Thematic_Kit/Implementation/GTFCC_Cholera_Outbreak_Response_Field_Manual.pdf)​
+    
+- **Limited feedback loops** – communities often do not see how their reports change services, which undermines motivation to contribute data.[](https://www.rcce-collective.net/wp-content/documents-repo/Cholera_Thematic_Kit/Implementation/GTFCC_Cholera_Outbreak_Response_Field_Manual.pdf)​
+    
+
+## 3. Ideation – three feasible concepts
+
+## Concept 1 – “Neighborhood WASH Card” (token‑based status mapping)
+
+- **Target users & workflow**
+    
+    - Camp WASH volunteers and block leaders update status for a small cluster of facilities (e.g., 10–20 latrines or taps).
+        
+    - Once per day or after an incident, they tap through a very short offline form on a shared low‑cost smartphone or tablet.
+        
+- **Data capture & trust**
+    
+    - Pre‑printed facility QR/NFC tags on latrines/taps; volunteer scans tag and selects icon‑based status (working, broken, unsafe, blocked).
+        
+    - Verification by random supervisory spot‑checks and comparison with remote‑sensing footprints and cholera case alerts.[](https://arxiv.org/html/2511.07231)
+        
+- **Privacy design**
+    
+    - No household identifiers; only facility‑level and block‑level data.
+        
+    - Access controlled dashboards: detailed facility view for WASH cluster; aggregated heat‑map for community notice boards.
+        
+- **Minimal technical stack**
+    
+    - Android app built on ODK/Kobo offline forms with QR/NFC support; local SQLite cache and periodic sync via 2G or Wi‑Fi.
+        
+    - Lightweight web dashboard (e.g., DHIS2 plugin or simple Leaflet map).
+        
+- **Novelty**
+    
+    - Shifts from household reporting to **micro‑territory stewardship** with tagged facilities and ultra‑simple icon forms, bridging between remote sensing maps and everyday functionality data.[](https://arxiv.org/html/2511.07231)​
+        
+- **Evaluation vs success metrics**
+    
+    - Compare facility list completeness and accuracy against independent WASH assessments over several months.
+        
+    - Measure median time from failure to first report before/after deployment; track proportion of blocks consistently updating and accessing the map.
+        
+
+---
+
+## Concept 2 – “IVR WASH Hotline with Voice Menus”
+
+- **Target users & workflow**
+    
+    - Any community member with a basic phone calls a free short code to report broken or unsafe WASH points and receive information.
+        
+    - Interactive voice menus in local languages route reports (water, toilet, waste) and approximate location (block or landmark).
+        
+- **Data capture & trust**
+    
+    - Human operator or simple IVR options capture structured complaints; repeat reports from different callers increase confidence.
+        
+    - Callback or SMS feedback informs reporter when an issue is logged or fixed, demonstrating responsiveness.[](https://www.rcce-collective.net/wp-content/documents-repo/Cholera_Thematic_Kit/Implementation/GTFCC_Cholera_Outbreak_Response_Field_Manual.pdf)​
+        
+- **Privacy design**
+    
+    - Caller numbers stored separately from map layer or hashed; reports displayed only as aggregated counts by block.
+        
+    - Clear audio message at call start describing what is collected and how it is used.
+        
+- **Minimal technical stack**
+    
+    - Basic IVR platform (OpenVox/Asterisk or cloud‑based but cacheable), GSM gateway, simple backend to aggregate events into a facility/area status table.
+        
+    - Data export to Kobo/ODK or GIS dashboard.
+        
+- **Novelty**
+    
+    - Combines **low‑literacy IVR** with geocoded WASH mapping, turning voice complaints into structured, mappable signals instead of stand‑alone hotlines.
+        
+- **Evaluation vs success metrics**
+    
+    - Track proportion of blocks that generate at least one report in a time window.
+        
+    - Time from first report to WASH partner acknowledgment; before/after analysis of gap‑detection delays.
+        
+
+---
+
+## Concept 3 – “Shared Camp WASH Board” (offline sync kiosks)
+
+- **Target users & workflow**
+    
+    - WASH agency staff and community focal points periodically sync their offline tablets at solar‑powered kiosks which host a local “camp WASH server”.
+        
+    - Kiosks display up‑to‑date printed or screen‑based maps for residents.
+        
+- **Data capture & trust**
+    
+    - Kobo/ODK forms used offline by multiple agencies; kiosks merge encrypted datasets and de‑duplicate facilities.
+        
+    - Community meetings review printed maps to validate facility locations and status and annotate corrections.
+        
+- **Privacy design**
+    
+    - Kiosk server stores only facility‑level and generalized risk information; household KAP data remain on agency devices or central servers.
+        
+    - Role‑based access to sensitive layers (e.g., complaints about GBV‑related sanitation risks).
+        
+- **Minimal technical stack**
+    
+    - Low‑power mini‑PC or Raspberry Pi with local Wi‑Fi hotspot and offline map tiles; periodic backhaul synchronization when connectivity exists.
+        
+    - Sync scripts for Kobo/ODK CSVs and shapefiles.
+        
+- **Novelty**
+    
+    - Introduces a **physically co‑located, offline “data commons”** for WASH that merges fragmented agency data while visibly feeding back information to residents.
+        
+- **Evaluation vs success metrics**
+    
+    - Examine completeness/consistency of facility data before and after kiosk deployment across agencies.
+        
+    - Measure time from facility failure to appearance on shared board and proportion of agencies regularly syncing.
+        
+
+---
+
+## HPS 2 – Digital Tool for Safe Childbirth
+
+## 1. Research and analysis – existing tools
+
+- **mHealth voice / SMS interventions**
+    
+    - Programs like mMitra send timed pregnancy voice messages about ANC visits, danger signs, and newborn care, improving some maternal behaviors in low‑resource settings.[](https://pmc.ncbi.nlm.nih.gov/articles/PMC7268375/)​
+        
+    - Strengths: works on basic phones, supports low literacy via audio, can be localized by language.
+        
+    - Shortcomings: missed calls, shared phones, and Do‑Not‑Disturb settings reduce reach; asynchronous audio alone may not be enough to change urgent care‑seeking.[](https://pediatrics.jmir.org/2025/1/e65581/)
+        
+- **Postnatal mHealth and virtual care programs**
+    
+    - Mixed‑modality programs with live virtual support plus educational messages show better outcomes than one‑way audio alone for infant danger‑sign recognition and clinic attendance.[](https://pediatrics.jmir.org/2025/1/e65581/)​
+        
+    - Challenges include connectivity, competing household duties, and limited access for women to shared phones, especially when phones are controlled by husbands.[](https://pediatrics.jmir.org/2025/1/e65581/)​
+        
+- **Humanitarian MNCH and referral systems**
+    
+    - Emergency MNCH guidance emphasizes the Minimum Initial Service Package, with community mobilization, standardized danger‑sign counseling, and structured referral systems between camps and facilities.[](https://gsdrc.org/publications/maternal-newborn-and-child-health-in-emergency-settings/)
+        
+    - Evidence reviews highlight persistent gaps in referral coordination, transport, and communication between levels of care in emergencies.[](https://onlinelibrary.wiley.com/doi/full/10.1002/hpm.3655)
+        
+
+## 2. Gap identification (under stated constraints)
+
+- **Reaching women with low literacy and shared phones** – existing SMS/voice services often assume individual phone ownership and uninterrupted access, which is not true in many crisis shelters.[](https://pmc.ncbi.nlm.nih.gov/articles/PMC7268375/)
+    
+- **Real‑time emergency guidance** – many tools focus on routine messaging rather than rapid assessment and referral when complications occur suddenly at night or during movement.[](https://gsdrc.org/publications/maternal-newborn-and-child-health-in-emergency-settings/)
+    
+- **Localized, trusted content** – tools are often not tailored to specific cultural norms, languages, and provider networks of each camp or region, which undermines trust and uptake.[](https://gsdrc.org/publications/maternal-newborn-and-child-health-in-emergency-settings/)​
+    
+- **Privacy and safety in crowded settings** – danger‑sign or pregnancy content on shared devices can expose women to stigma or family conflict; current systems rarely address discreet use.[](https://pmc.ncbi.nlm.nih.gov/articles/PMC7268375/)
+    
+- **Offline resilience** – few solutions are designed explicitly to work offline or with intermittent power, or to blend digital prompts with low‑tech community structures.[](https://gsdrc.org/publications/maternal-newborn-and-child-health-in-emergency-settings/)​
+    
+
+## 3. Ideation – three solution concepts
+
+## Concept 1 – “Pocket Birth Card + IVR Companion”
+
+- **User journey in an emergency**
+    
+    - Pregnant woman or family member uses a simple printed “Birth Card” with icons for common danger signs; in an emergency, they call a toll‑free IVR number printed on the card.
+        
+    - IVR asks 3–5 yes/no questions via voice menus in local language and classifies urgency, then reads clear next‑step instructions and optionally connects to a hotline or local midwife.
+        
+- **Content & trust**
+    
+    - Card and IVR scripts co‑branded by trusted NGOs and local health authorities; content aligns with MISP guidelines.[](https://gsdrc.org/publications/maternal-newborn-and-child-health-in-emergency-settings/)​
+        
+    - Community health workers (CHWs) distribute and explain cards during ANC visits or outreach sessions.
+        
+- **Connectivity strategy**
+    
+    - Offline printed card plus voice hotline; IVR hosted centrally but tolerant of short 2G calls.
+        
+    - Basic fallback instructions printed on card if hotline unreachable.
+        
+- **Privacy approach**
+    
+    - No personal data required; callers may optionally state first name only.
+        
+    - Card uses neutral symbols rather than explicit “pregnancy” labels to reduce stigma.
+        
+- **Escalation / referral**
+    
+    - High‑risk responses route to on‑call midwife, ambulance dispatcher, or referral focal point if available.
+        
+    - IVR sends structured alert (structured SMS) to facility with risk category and approximate location.
+        
+- **Evaluation vs metrics**
+    
+    - Pre/post surveys on danger‑sign recognition among card holders.
+        
+    - Time from symptom onset to facility arrival compared between users and non‑users during pilot.
+        
+    - Hotline connection rates and successful referral completions.
+        
+- **Novelty**
+    
+    - Couples **physical, low‑tech Birth Card** with a structured IVR triage flow tailored to emergencies, not just routine health promotion.
+        
+
+---
+
+## Concept 2 – “CHW Offline Birth Companion App”
+
+- **User journey in an emergency**
+    
+    - Family contacts a nearby CHW (known to them) when complications arise; CHW opens an offline app with pictorial decision trees.
+        
+    - App guides CHW through danger‑sign assessment and generates an urgency classification plus simple counseling messages.
+        
+- **Content & trust**
+    
+    - Content adapted from WHO/IAWG guidelines and validated with local clinicians; CHWs remain the human interface.[](https://onlinelibrary.wiley.com/doi/full/10.1002/hpm.3655)
+        
+    - App displays both text and images; audio prompts available in major languages.
+        
+- **Connectivity strategy**
+    
+    - Fully offline on low‑end Android phone; periodic sync when CHW visits clinic to upload anonymized case logs and update guideline content.
+        
+- **Privacy approach**
+    
+    - Data stored as household codes, not names; optional notes remain on device until aggregated and de‑identified at sync.
+        
+    - Device PIN and app‑level lock to protect sensitive notes.
+        
+- **Escalation / referral**
+    
+    - App suggests nearest facility with required level of care and prints or shows a short referral code; facility staff see reason for referral.
+        
+    - CHW can trigger basic SMS to facility when network is available.
+        
+- **Evaluation vs metrics**
+    
+    - Compare CHW knowledge and correct danger‑sign classification pre/post training.
+        
+    - Measure delays to care and facility outcomes for cases managed with the app vs previous practice.
+        
+    - CHW usability and trust scores.
+        
+- **Novelty**
+    
+    - Focuses on **offline, pictorial decision support for CHWs**, explicitly integrating referral codes and low‑tech SMS notification rather than relying on patient‑facing apps.
+        
+
+---
+
+## Concept 3 – “Discrete Audio Hub” (local content sharing)
+
+- **User journey in an emergency**
+    
+    - Woman or family member borrows or uses a small shared audio device (e.g., solar MP3 player or cheap feature phone pre‑loaded with content) managed by women’s group or safe space.
+        
+    - Device menu offers short, pre‑recorded emergency instructions by symptom; user listens privately via earphones and then decides whether to seek help, optionally contacting CHW or hotline.
+        
+- **Content & trust**
+    
+    - Messages voiced by local midwives and community leaders, explaining danger signs and emphasizing rights to care, aligned with humanitarian MNCH guidance.[](https://gsdrc.org/publications/maternal-newborn-and-child-health-in-emergency-settings/)​
+        
+    - Content co‑created with women’s groups to ensure cultural resonance.
+        
+- **Connectivity strategy**
+    
+    - Entirely offline audio library updated occasionally via Bluetooth or SD card when staff visit.
+        
+    - Optional phone numbers for CHWs/hotline read at the end of messages.
+        
+- **Privacy approach**
+    
+    - No data collection; device can be used without logging who listens.
+        
+    - Earphones and neutral device design protect privacy in crowded shelters.
+        
+- **Escalation / referral**
+    
+    - Messages instruct users on how to contact CHW networks, safe transport volunteers, or health posts, including night‑time options where available.[](https://onlinelibrary.wiley.com/doi/full/10.1002/hpm.3655)
+        
+- **Evaluation vs metrics**
+    
+    - Pre/post knowledge surveys in women’s groups; tracking of emergency consultations where the device was used.
+        
+    - Qualitative feedback on perceived safety, privacy, and usefulness.
+        
+- **Novelty**
+    
+    - Uses **shared, offline audio devices as a community asset** for discreet maternal danger‑sign guidance, decoupled from individual phone ownership.
+        
+
+---
+
+## HPS 3 – AI‑Augmented Emergency Triage & Imaging
+
+## 1. Research and analysis – prior work
+
+- **AI triage in emergency departments**
+    
+    - Prospective studies show AI models predicting triage levels or critical outcomes with 80–99% accuracy and potential reductions in under‑ and over‑triage when used as nurse decision support.[](https://pmc.ncbi.nlm.nih.gov/articles/PMC11771688/)​
+        
+    - However, studies are almost entirely in high‑income, well‑digitized hospitals with robust EHRs and computing infrastructure.[](https://pubmed.ncbi.nlm.nih.gov/40306071/)
+        
+- **Interpretable decision support and explainable AI**
+    
+    - Interpretable CDSS applications use rule‑based logic, feature importance, and natural‑language rationales to support clinicians while maintaining transparency and user control.[](https://pmc.ncbi.nlm.nih.gov/articles/PMC11506268/)
+        
+    - Explainable AI approaches can improve clinician trust when explanations align with clinical reasoning, but overly complex or misleading explanations risk over‑reliance or confusion.[](https://www.nature.com/articles/s41598-025-15867-z)
+        
+- **AI imaging in low‑resource and edge settings**
+    
+    - AI‑driven low‑dose imaging and enhancement can maintain diagnostic accuracy while reducing radiation and enabling faster reads, with ongoing work on compressing models for standard hardware.[](https://pmc.ncbi.nlm.nih.gov/articles/PMC11941271/)​
+        
+    - Edge‑computing approaches show that compressed models can run on-device or on low‑power processors, supporting diagnostics where cloud access is limited.[](https://www.design-reuse.com/blog/56214-how-edge-ai-is-transforming-medical-diagnostics/)
+        
+    - Yet, implementation in humanitarian hospitals is largely untested; device variability and power limitations remain major issues.[](https://par.nsf.gov/servlets/purl/10355450)​
+        
+
+## 2. Gap identification for humanitarian deployment
+
+- **External validity and bias** – models trained on high‑income ED data may not generalize to crisis populations with different disease profiles, comorbidities, or documentation patterns.[](https://pmc.ncbi.nlm.nih.gov/articles/PMC11771688/)
+    
+- **Device and site variability** – imaging AI often assumes specific scanner vendors or protocols; humanitarian settings use heterogeneous or older equipment.[](https://pmc.ncbi.nlm.nih.gov/articles/PMC11941271/)
+    
+- **Workflow fit and human factors** – busy ED staff in crises may not have time or training to interpret complex AI outputs; workflow disruptions can negate potential benefits.[](https://pmc.ncbi.nlm.nih.gov/articles/PMC11506268/)
+    
+- **Offline and low‑compute constraints** – many solutions rely on cloud GPUs and continuous connectivity, which are unrealistic during power and network interruptions.[](https://www.design-reuse.com/blog/56214-how-edge-ai-is-transforming-medical-diagnostics/)
+    
+- **Governance, accountability, and trust** – clear boundaries between AI support and human decision‑making, audit trails, and mechanisms to contest AI advice are underdeveloped, especially in humanitarian contexts.[](https://www.nature.com/articles/s41598-025-15867-z)
+    
+
+## 3. Ideation – three AI system concepts
+
+## Concept 1 – “Triage+Vitals Edge Assistant”
+
+- **Inputs**
+    
+    - Initial vitals (HR, BP, RR, SpO₂, temperature), age, sex, chief complaint keywords, simple comorbidity flags.
+        
+- **Interpretability**
+    
+    - Two‑stage model: transparent rules (e.g., shock index thresholds) plus a compact ML risk scorer.
+        
+    - UI shows: overall risk category, top contributing features, and short textual rationale (e.g., “High risk due to hypotension and tachycardia”).[](https://pmc.ncbi.nlm.nih.gov/articles/PMC11506268/)
+        
+- **Offline / edge operation**
+    
+    - Quantized model deployed on a rugged tablet or small edge device; all inference done locally with periodic parameter updates.[](https://par.nsf.gov/servlets/purl/10355450)
+        
+    - Syncs anonymized summary statistics when connectivity is available for monitoring and re‑training.
+        
+- **Human‑in‑the‑loop workflow**
+    
+    - Nurse performs standard triage, then sees AI suggestion; nurse can accept, adjust, or override with mandatory reason logging.
+        
+    - Overrides feed into model‑monitoring to detect failure patterns.
+        
+- **Fairness & safety**
+    
+    - Regular audits comparing performance across age, sex, and displacement status groups; conservative defaults when data missing.
+        
+    - Hard rules ensure that life‑threatening signs always trigger high‑priority triage regardless of model output.
+        
+- **Evaluation vs metrics**
+    
+    - Agreement between AI‑supported triage and reference clinician triage; changes in under‑/over‑triage rates.[](https://pmc.ncbi.nlm.nih.gov/articles/PMC11771688/)​
+        
+    - Time‑motion studies for reduced triage time; usability and trust questionnaires for staff.
+        
+- **Novelty**
+    
+    - Designed specifically for **low‑compute, offline EDs**, combining simple transparent rules with a small edge model and explicit override logging to support humanitarian governance.
+        
+
+---
+
+## Concept 2 – “Portable Imaging Pre‑Read Helper”
+
+- **Inputs**
+    
+    - Digital X‑ray or ultrasound images from portable devices; minimal metadata (age, sex, indication).
+        
+- **Interpretability**
+    
+    - On‑device model highlights suspicious regions with saliency maps and provides a simple probability of key findings (e.g., pneumothorax, consolidation), plus short textual hints (“Look at right upper lung field”).[](https://www.nature.com/articles/s41598-025-15867-z)
+        
+- **Offline / edge operation**
+    
+    - Models compressed and deployed directly on portable imaging units or a nearby mini‑PC; no cloud needed for inference.[](https://pmc.ncbi.nlm.nih.gov/articles/PMC11941271/)
+        
+    - When connectivity exists, anonymized images and predictions can be batched to remote radiologists for audit and feedback.
+        
+- **Human‑in‑the‑loop workflow**
+    
+    - Frontline clinician reviews image and AI overlay, then records their own interpretation; AI is framed as “second reader”.
+        
+    - Remote radiologist review (when available) closes the loop and helps refine model via federated or periodic re‑training.
+        
+- **Fairness & safety**
+    
+    - Site‑specific validation before use; thresholds tuned to favor sensitivity for life‑threatening findings.
+        
+    - Monitoring of performance across devices and population subgroups; simple mechanisms to flag and exclude bad scans from training.
+        
+- **Evaluation vs metrics**
+    
+    - Sensitivity and specificity for selected findings compared with expert radiologist ground truth.[](https://pmc.ncbi.nlm.nih.gov/articles/PMC11941271/)​
+        
+    - Time from image acquisition to actionable decision; clinician trust/usability scores.
+        
+- **Novelty**
+    
+    - Explicit focus on **portable, heterogeneous imaging devices in crisis hospitals**, with on‑device saliency‑based pre‑reads rather than cloud PACS integrations.
+        
+
+---
+
+## Concept 3 – “Multimodal ED Snapshot Console”
+
+- **Inputs**
+    
+    - Combined triage data: vitals, brief symptom checklist, comorbidity flags, and binary imaging flags (e.g., “AI suggests abnormal chest X‑ray”).
+        
+    - Optional free‑text note processed locally by a small language model or rules.
+        
+- **Interpretability**
+    
+    - Console displays a ranked queue of patients with color‑coded urgency and a straightforward score breakdown (vitals contribution, symptom contribution, imaging contribution).
+        
+    - Uncertainty band or confidence indicator; explanations in plain language.
+        
+- **Offline / edge operation**
+    
+    - Runs on a low‑power local server in the ED with connected tablets/PCs; no external connection needed for day‑to‑day operation.
+        
+    - Periodic export of de‑identified logs via USB or intermittent network for oversight and model updates.[](https://www.design-reuse.com/blog/56214-how-edge-ai-is-transforming-medical-diagnostics/)
+        
+- **Human‑in‑the‑loop workflow**
+    
+    - Charge nurse monitors queue; can manually re‑prioritize patients and annotate reasons (e.g., social vulnerability, crowding issues).
+        
+    - Board used during shift handovers and mass‑casualty incidents to maintain situational awareness.
+        
+- **Fairness & safety**
+    
+    - Queue display includes safeguards preventing systematic deprioritization of specific demographic groups; optional “equity alerts” if patterns detected.
+        
+    - Fail‑safe mode: if model confidence low or hardware fails, system reverts to simple ESI‑style rules without ML.
+        
+- **Evaluation vs metrics**
+    
+    - Agreement between console urgency rankings and senior clinician assessments; change in door‑to‑provider time.
+        
+    - User trust and usability ratings; log‑based analysis of how often staff override model suggestions.
+        
+- **Novelty**
+    
+    - Moves beyond single‑patient triage to a **whole‑ED multimodal situational‑awareness console** optimized for offline humanitarian settings, with built‑in fairness and override mechanisms.

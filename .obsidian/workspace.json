@@ -34,9 +34,26 @@
               "icon": "lucide-file",
               "title": "Lifelines Hackathon CMUQ"
             }
+          },
+          {
+            "id": "b38431331be5408c",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Research Internships/QCRI/QCRI.canvas",
+                "viewState": {
+                  "x": -358.3751156398664,
+                  "y": -170.702658580118,
+                  "zoom": -0.5541544560564993
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "QCRI"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -197,23 +214,27 @@
       "bases:Create new base": false
     }
   },
-  "active": "e434780baa03713a",
+  "active": "b38431331be5408c",
   "lastOpenFiles": [
-    "Hackathons/QRDI X Ibedrola.md",
+    "Research Internships/QEERI/QEERI_Overview.canvas",
+    "Research Internships/How to Research.canvas",
+    "Hackathons/Lifelines Hackathon CMUQ.md",
     "Research Internships/QEERI/Internship Work  - TODO.md",
+    "Research Internships/QEERI/How to become a great Research Assistant.md",
     "Research Internships/QEERI/Extraction System.md",
     "Research Internships/QEERI/Agentic RAG Setup.md",
+    "Hackathons/QRDI X Ibedrola.md",
+    "Hackathons/Snoonu's.md",
+    "Research Internships/QCRI/QCRI.canvas",
+    "Hackathons/Hackathon.canvas",
     "CS/Robotics/Robotics_Overview.canvas",
-    "Hackathons/Lifelines Hackathon CMUQ.md",
     "CS/Algorithms/Algorithms_Overview.canvas",
     "CS/AI&ML/AI&ML_Overview.canvas",
     "Research Internships/QEERI/Materials Informatics.md",
     "attachments/Pasted image 20260117210714.png",
     "attachments/Pasted image 20260117210702.png",
     "attachments/Pasted image 20260117210650.png",
-    "Hackathons/Hackathon.canvas",
     "attachments/Pasted image 20260117210617.png",
-    "Hackathons/Snoonu's.md",
     "AI Tools/Googles Antigravity.md",
     "attachments/Pasted image 20260115131122.png",
     "AI Tools/AI Tools Overview.canvas",
@@ -228,17 +249,13 @@
     "CS/AI&ML/Untitled",
     "Research Internships/QEERI/NLP Python Libraries.md",
     "CS/AI&ML/Concepts.md",
-    "Research Internships/How to Research.canvas",
     "attachments/HowToDoLiteratureReview.png",
     "CS/GitHub/Commands.canvas",
     "CS/Algorithms/C++ Explained.md",
-    "Research Internships/QEERI/How to become a great Research Assistant.md",
-    "Research Internships/QEERI/QEERI_Overview.canvas",
     "attachments/..png",
     "attachments/EngineerVsResearch.png",
     "attachments/Masters_Roadmap.png",
     "Research Internships/Research Tips.md",
-    "Research Internships/QCRI/QCRI.canvas",
     "Research Internships/QCRI",
     "Research Internships",
     "QEERI/Untitled.md",

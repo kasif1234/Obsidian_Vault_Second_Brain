@@ -7,7 +7,7 @@
 		{"id":"2ecde5826e243f32","type":"text","text":"Tips:\n1. Make PowerPoints every 2 weeks\n2. Structure of Paper: Abstract/ Introduction/ Literature Review/ Methodology/ Results/ Discussion/ Conclusion/ Acknowledgements/ References ","x":-80,"y":607,"width":250,"height":433},
 		{"id":"b66fa0338a9a72e8","type":"text","text":"Tools:\n1. Write full - Helps write about academic style writing\n2. Penelope.ai - formats your word doc into academic style, like formats, reference style\n3. Lit maps - is a visual representation of academic articles that shows how they connect via citations and references. It is also the name of a specific AI-powered research discovery tool that generates these maps to help researchers conduct literature reviews more efficiently.\n4. Connected Papers - Prior and derivative work\n5. Bio render - Professional Images/Figures for your papers {Canva for science}\n6. Draw.io \n7. Kudos - Display all our work, capture it\n8. Bohrium - AI research\n9. Elicit - Find papers\n10. docAnalyzer.ai - Document Analyzer","x":220,"y":624,"width":620,"height":876},
 		{"id":"d6904bf344042585","type":"file","file":"attachments/HowToDoLiteratureReview.png","x":-968,"y":480,"width":814,"height":460},
-		{"id":"88d5823c360e5aa1","x":-875,"y":1000,"width":628,"height":340,"type":"text","text":"How to Find Research Gaps\n1. Google scholar - Scroll down and you will see Study Limitations\n2. Mentor\n3. Systematic Review\n4. ChatGPT"}
+		{"id":"88d5823c360e5aa1","type":"text","text":"How to Find Research Gaps\n1. Google scholar - Scroll down and you will see Study Limitations\n2. Mentor\n3. Systematic Review\n4. ChatGPT","x":-875,"y":1000,"width":628,"height":340}
 	],
 	"edges":[]
 }

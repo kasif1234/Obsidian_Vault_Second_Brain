@@ -3,8 +3,8 @@
 		{"id":"f22e639a3eb5978e","type":"text","text":" Hackathon/Event","x":-139,"y":-53,"width":250,"height":55,"color":"3"},
 		{"id":"7abcc808917b4b23","type":"file","file":"attachments/FireBase.png","x":-14,"y":-420,"width":494,"height":259},
 		{"id":"85b1df3806282f5e","type":"file","file":"Hackathons/QRDI X Ibedrola.md","x":-620,"y":-290,"width":400,"height":417},
-		{"id":"b71018cb41ae348b","x":-160,"y":40,"width":250,"height":385,"type":"text","text":"Refer to Snoonu C1,C2,C3,C4 -> IN DRIVE"},
-		{"id":"f015c8fee603829e","x":140,"y":-53,"width":729,"height":156,"type":"file","file":"attachments/Pasted image 20260117210617.png"}
+		{"id":"b71018cb41ae348b","type":"text","text":"Refer to Snoonu C1,C2,C3,C4 -> IN DRIVE [[d]]","x":-160,"y":40,"width":250,"height":385},
+		{"id":"f015c8fee603829e","type":"file","file":"attachments/Pasted image 20260117210617.png","x":140,"y":-53,"width":729,"height":156}
 	],
 	"edges":[
 		{"id":"48ee0a8147c9a48d","fromNode":"f22e639a3eb5978e","fromSide":"top","toNode":"7abcc808917b4b23","toSide":"bottom"},
