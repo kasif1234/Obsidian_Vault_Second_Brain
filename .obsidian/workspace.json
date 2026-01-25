@@ -41,15 +41,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Research Internships/QCRI/QCRI.canvas",
+                "file": "CS/Robotics/Robotics_Overview.canvas",
                 "viewState": {
-                  "x": -358.3751156398664,
-                  "y": -170.702658580118,
-                  "zoom": -0.5541544560564993
+                  "x": -10.187650975785282,
+                  "y": -1145.4576183463107,
+                  "zoom": -0.5891835326408938
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "QCRI"
+              "title": "Robotics_Overview"
             }
           }
         ],
@@ -214,8 +214,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "b38431331be5408c",
+  "active": "3a60a7c197567ec6",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260125212505.png",
+    "attachments/Pasted image 20260125212440.png",
+    "Research Internships/QCRI/QCRI.canvas",
     "Research Internships/QEERI/QEERI_Overview.canvas",
     "Research Internships/How to Research.canvas",
     "Hackathons/Lifelines Hackathon CMUQ.md",
@@ -225,7 +228,6 @@
     "Research Internships/QEERI/Agentic RAG Setup.md",
     "Hackathons/QRDI X Ibedrola.md",
     "Hackathons/Snoonu's.md",
-    "Research Internships/QCRI/QCRI.canvas",
     "Hackathons/Hackathon.canvas",
     "CS/Robotics/Robotics_Overview.canvas",
     "CS/Algorithms/Algorithms_Overview.canvas",
@@ -254,7 +256,6 @@
     "CS/Algorithms/C++ Explained.md",
     "attachments/..png",
     "attachments/EngineerVsResearch.png",
-    "attachments/Masters_Roadmap.png",
     "Research Internships/Research Tips.md",
     "Research Internships/QCRI",
     "Research Internships",
