@@ -43,9 +43,9 @@
               "state": {
                 "file": "CS/Robotics/Robotics_Overview.canvas",
                 "viewState": {
-                  "x": -10.187650975785282,
-                  "y": -1145.4576183463107,
-                  "zoom": -0.5891835326408938
+                  "x": 205.91359844172442,
+                  "y": -78.08120009807655,
+                  "zoom": -0.7739191440379113
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -214,11 +214,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "3a60a7c197567ec6",
+  "active": "b38431331be5408c",
   "lastOpenFiles": [
+    "Research Internships/QCRI/QCRI.canvas",
+    "attachments/Pasted image 20260126094156.png",
+    "attachments/Pasted image 20260126094134.png",
+    "CS/Robotics/Robotics_Overview.canvas",
     "attachments/Pasted image 20260125212505.png",
     "attachments/Pasted image 20260125212440.png",
-    "Research Internships/QCRI/QCRI.canvas",
     "Research Internships/QEERI/QEERI_Overview.canvas",
     "Research Internships/How to Research.canvas",
     "Hackathons/Lifelines Hackathon CMUQ.md",
@@ -229,7 +232,6 @@
     "Hackathons/QRDI X Ibedrola.md",
     "Hackathons/Snoonu's.md",
     "Hackathons/Hackathon.canvas",
-    "CS/Robotics/Robotics_Overview.canvas",
     "CS/Algorithms/Algorithms_Overview.canvas",
     "CS/AI&ML/AI&ML_Overview.canvas",
     "Research Internships/QEERI/Materials Informatics.md",
@@ -251,11 +253,8 @@
     "CS/AI&ML/Untitled",
     "Research Internships/QEERI/NLP Python Libraries.md",
     "CS/AI&ML/Concepts.md",
-    "attachments/HowToDoLiteratureReview.png",
     "CS/GitHub/Commands.canvas",
     "CS/Algorithms/C++ Explained.md",
-    "attachments/..png",
-    "attachments/EngineerVsResearch.png",
     "Research Internships/Research Tips.md",
     "Research Internships/QCRI",
     "Research Internships",
