@@ -34,9 +34,51 @@
               "icon": "lucide-file",
               "title": "QRDI X Ibedrola"
             }
+          },
+          {
+            "id": "8b6107935d9f6b6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UNIV 200.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "UNIV 200"
+            }
+          },
+          {
+            "id": "5b88599d20503481",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UNIV 200.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "UNIV 200"
+            }
+          },
+          {
+            "id": "cf5501ec84ea9ba4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UNIV 200.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "UNIV 200"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -197,13 +239,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "e434780baa03713a",
+  "active": "cf5501ec84ea9ba4",
   "lastOpenFiles": [
-    "Hackathons/Snoonu's.md",
+    "Research Internships/QCRI/Latest Meeting Discussions.md",
+    "Research Internships/QCRI/QCRI.canvas",
+    "UNIV 200.md",
+    "CS/Robotics/Robotics lecture Info.md",
+    "CS/Robotics/Robotics_Overview.canvas",
+    "attachments/Pasted image 20260203151921.png",
+    "MCOM.md",
+    "Arabic.md",
     "Hackathons/QRDI X Ibedrola.md",
+    "Hackathons/Snoonu's.md",
     "Hackathons/Lifelines Hackathon CMUQ.md",
     "CS/GitHub/Commands.canvas",
-    "Research Internships/QCRI/QCRI.canvas",
     "Research Internships/How to Research.canvas",
     "CS/AI&ML/AI&ML_Overview.canvas",
     "Best Youtubers Academics/Channel list.md",
@@ -220,8 +269,6 @@
     "attachments/Pasted image 20260128135413.png",
     "attachments/Pasted image 20260128135346.png",
     "attachments/Pasted image 20260128135309.png",
-    "attachments/Pasted image 20260128135212.png",
-    "CS/Robotics/Robotics_Overview.canvas",
     "Research Internships/QEERI/QEERI_Overview.canvas",
     "Research Internships/QEERI/Internship Work  - TODO.md",
     "Research Internships/QEERI/How to become a great Research Assistant.md",
@@ -245,14 +292,9 @@
     "attachments/RA successs.pdf",
     "attachments/RA success.md",
     "attachments/RA success",
-    "Research Internships/QEERI/Machine Learning.md",
-    "Research Internships/QEERI/RAG.md",
-    "Research Internships/QEERI/Top Learnings.md",
     "Hackathons",
     "attachments/Physics-informed ML for materials science.pdf",
-    "Untitled.md",
     "Activity",
-    "Personal",
-    "CS/Algorithms/Divide and conquer.md"
+    "Personal"
   ]
 }
