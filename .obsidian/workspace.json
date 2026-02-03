@@ -25,35 +25,21 @@
             "id": "e434780baa03713a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hackathons/Lifelines Hackathon CMUQ.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lifelines Hackathon CMUQ"
-            }
-          },
-          {
-            "id": "b38431331be5408c",
-            "type": "leaf",
-            "state": {
               "type": "canvas",
               "state": {
-                "file": "CS/Robotics/Robotics_Overview.canvas",
+                "file": "Research Internships/QCRI/QCRI.canvas",
                 "viewState": {
-                  "x": 205.91359844172442,
-                  "y": -78.08120009807655,
-                  "zoom": -0.7739191440379113
+                  "x": -1493.2541634335132,
+                  "y": -388.9020323000885,
+                  "zoom": -1.3040042787160055
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Robotics_Overview"
+              "title": "QCRI"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.50418853759766
+    "width": 266.50418853759766
   },
   "right": {
     "id": "1eae1bad183ffdad",
@@ -214,40 +200,40 @@
       "bases:Create new base": false
     }
   },
-  "active": "b38431331be5408c",
+  "active": "e434780baa03713a",
   "lastOpenFiles": [
-    "Research Internships/QCRI/QCRI.canvas",
-    "attachments/Pasted image 20260126094156.png",
-    "attachments/Pasted image 20260126094134.png",
-    "CS/Robotics/Robotics_Overview.canvas",
-    "attachments/Pasted image 20260125212505.png",
-    "attachments/Pasted image 20260125212440.png",
-    "Research Internships/QEERI/QEERI_Overview.canvas",
     "Research Internships/How to Research.canvas",
+    "CS/AI&ML/AI&ML_Overview.canvas",
+    "Best Youtubers Academics/Channel list.md",
+    "AI Tools/Googles Antigravity.md",
+    "AI Tools/AI Tools Overview.canvas",
+    "Hackathons/QRDI X Ibedrola.md",
+    "Research Internships/QCRI/QCRI.canvas",
     "Hackathons/Lifelines Hackathon CMUQ.md",
+    "attachments/Perplexity to collect papers.png",
+    "attachments/Pasted image 20260202094417.png",
+    "attachments/reasoning.png",
+    "attachments/Pasted image 20260202093112.png",
+    "Activity/Emotion Stabilizers.md",
+    "Hackathons/Hackathon.canvas",
+    "attachments/Pasted image 20260128135546.png",
+    "attachments/Pasted image 20260128135432.png",
+    "attachments/Pasted image 20260128135413.png",
+    "attachments/Pasted image 20260128135346.png",
+    "attachments/Pasted image 20260128135309.png",
+    "attachments/Pasted image 20260128135212.png",
+    "CS/Robotics/Robotics_Overview.canvas",
+    "Research Internships/QEERI/QEERI_Overview.canvas",
     "Research Internships/QEERI/Internship Work  - TODO.md",
     "Research Internships/QEERI/How to become a great Research Assistant.md",
     "Research Internships/QEERI/Extraction System.md",
     "Research Internships/QEERI/Agentic RAG Setup.md",
-    "Hackathons/QRDI X Ibedrola.md",
     "Hackathons/Snoonu's.md",
-    "Hackathons/Hackathon.canvas",
     "CS/Algorithms/Algorithms_Overview.canvas",
-    "CS/AI&ML/AI&ML_Overview.canvas",
     "Research Internships/QEERI/Materials Informatics.md",
-    "attachments/Pasted image 20260117210714.png",
-    "attachments/Pasted image 20260117210702.png",
-    "attachments/Pasted image 20260117210650.png",
-    "attachments/Pasted image 20260117210617.png",
-    "AI Tools/Googles Antigravity.md",
-    "attachments/Pasted image 20260115131122.png",
-    "AI Tools/AI Tools Overview.canvas",
-    "attachments/Coding Tools.png",
     "Best Youtubers Academics/Fiverr + Video Ideas.md",
     "AI Tools",
-    "Best Youtubers Academics/Channel list.md",
     "Activity/Untitled.canvas",
-    "Activity/Emotion Stabilizers.md",
     "Activity/Urgent.md",
     "CS/AI&ML/NLP.md",
     "CS/AI&ML/Untitled",
