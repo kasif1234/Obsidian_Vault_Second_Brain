@@ -67,14 +67,17 @@
             "id": "cf5501ec84ea9ba4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "UNIV 200.md",
-                "mode": "source",
-                "source": false
+                "file": "Research Internships/QCRI/QCRI.canvas",
+                "viewState": {
+                  "x": -1279,
+                  "y": -94.5,
+                  "zoom": -1.9163805218010528
+                }
               },
-              "icon": "lucide-file",
-              "title": "UNIV 200"
+              "icon": "lucide-layout-dashboard",
+              "title": "QCRI"
             }
           }
         ],
@@ -241,11 +244,11 @@
   },
   "active": "cf5501ec84ea9ba4",
   "lastOpenFiles": [
-    "CS/Robotics/Robotics lecture Info.md",
-    "UNIV 200.md",
     "Research Internships/QCRI/Latest Meeting Discussions.md",
     "Research Internships/QCRI/QCRI.canvas",
     "CS/Robotics/Robotics_Overview.canvas",
+    "UNIV 200.md",
+    "CS/Robotics/Robotics lecture Info.md",
     "attachments/Pasted image 20260203151921.png",
     "MCOM.md",
     "Arabic.md",
