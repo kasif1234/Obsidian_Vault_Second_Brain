@@ -1,3 +1,3 @@
 03/02/2026
 
-Transcribe latest video
+1. Transcribe latest video

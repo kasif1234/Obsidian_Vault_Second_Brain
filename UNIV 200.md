@@ -7,10 +7,14 @@ Week 3
 
 
 Essay - min 350 / max 500 words - 5 paragraphs
-==Intro== - {1. webinar date and time, 2. webinar title 3. guest speaker name, nationality , gender 4. Importance of the topic {this WEBINAR IS PART OF THE COURSE UNIV 200, WHICH IS TAUGHT CORE COURRCULUM PROGRAM AT QATAR UNIVERISTY}}
-Last sentence of the intro - thesis
+==Intro== - {
+1. webinar date and time
+2. webinar title 
+3. guest speaker name, nationality , gender
+4. Importance of the topic {this WEBINAR IS PART OF THE COURSE UNIV 200, WHICH IS TAUGHT CORE COURRCULUM PROGRAM AT QATAR UNIVERISTY}}
+5. Last sentence of the intro - thesis
 
-==Body== - Answer the question
+==Body== - Answer the questions, one block per question
 ==Conclusion== - 
 
 ![[Pasted image 20260203151921.png]]
