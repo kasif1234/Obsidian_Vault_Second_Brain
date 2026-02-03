@@ -25,17 +25,14 @@
             "id": "e434780baa03713a",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "CS/GitHub/Commands.canvas",
-                "viewState": {
-                  "x": -30.862622695401686,
-                  "y": -126.77170562744142,
-                  "zoom": 0.16505969205391632
-                }
+                "file": "Hackathons/Snoonu's.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Commands"
+              "icon": "lucide-file",
+              "title": "Snoonu's"
             }
           }
         ],
@@ -203,13 +200,14 @@
   "active": "e434780baa03713a",
   "lastOpenFiles": [
     "Hackathons/QRDI X Ibedrola.md",
+    "Hackathons/Lifelines Hackathon CMUQ.md",
+    "CS/GitHub/Commands.canvas",
     "Research Internships/QCRI/QCRI.canvas",
     "Research Internships/How to Research.canvas",
     "CS/AI&ML/AI&ML_Overview.canvas",
     "Best Youtubers Academics/Channel list.md",
     "AI Tools/Googles Antigravity.md",
     "AI Tools/AI Tools Overview.canvas",
-    "Hackathons/Lifelines Hackathon CMUQ.md",
     "attachments/Perplexity to collect papers.png",
     "attachments/Pasted image 20260202094417.png",
     "attachments/reasoning.png",
@@ -239,7 +237,6 @@
     "CS/AI&ML/Untitled",
     "Research Internships/QEERI/NLP Python Libraries.md",
     "CS/AI&ML/Concepts.md",
-    "CS/GitHub/Commands.canvas",
     "CS/Algorithms/C++ Explained.md",
     "Research Internships/Research Tips.md",
     "Research Internships/QCRI",
