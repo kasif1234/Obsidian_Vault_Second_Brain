@@ -67,17 +67,14 @@
             "id": "cf5501ec84ea9ba4",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Research Internships/UREP/UREP Canvas.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "Research Internships/UREP/Progress Tracker.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "UREP Canvas"
+              "icon": "lucide-file",
+              "title": "Progress Tracker"
             }
           }
         ],
@@ -244,11 +241,11 @@
   },
   "active": "cf5501ec84ea9ba4",
   "lastOpenFiles": [
+    "Research Internships/UREP/UREP Canvas.canvas",
     "attachments/Pasted image 20260206191328.png",
     "attachments/Pasted image 20260206191224.png",
     "attachments/Pasted image 20260206191210.png",
     "Research Internships/UREP/Progress Tracker.md",
-    "Research Internships/UREP/UREP Canvas.canvas",
     "CS/Robotics/Robotics_Overview.canvas",
     "Research Internships/UREP",
     "CS/Robotics/Robotics lecture Info.md",
@@ -277,7 +274,6 @@
     "Hackathons/Hackathon.canvas",
     "attachments/Pasted image 20260128135546.png",
     "attachments/Pasted image 20260128135432.png",
-    "attachments/Pasted image 20260128135413.png",
     "Research Internships/QEERI/Internship Work  - TODO.md",
     "Research Internships/QEERI/How to become a great Research Assistant.md",
     "Research Internships/QEERI/Extraction System.md",
