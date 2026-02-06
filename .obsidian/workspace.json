@@ -69,15 +69,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "CS/Robotics/Robotics_Overview.canvas",
+                "file": "Research Internships/UREP/UREP Canvas.canvas",
                 "viewState": {
-                  "x": 593.063979510423,
-                  "y": -304.1418714532113,
-                  "zoom": 0.3584409317242757
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Robotics_Overview"
+              "title": "UREP Canvas"
             }
           }
         ],
@@ -244,12 +244,18 @@
   },
   "active": "cf5501ec84ea9ba4",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260206191328.png",
+    "attachments/Pasted image 20260206191224.png",
+    "attachments/Pasted image 20260206191210.png",
+    "Research Internships/UREP/Progress Tracker.md",
+    "Research Internships/UREP/UREP Canvas.canvas",
+    "CS/Robotics/Robotics_Overview.canvas",
+    "Research Internships/UREP",
     "CS/Robotics/Robotics lecture Info.md",
     "Research Internships/QEERI/Patterns for each Parameter.md",
     "Research Internships/QEERI/QEERI_Overview.canvas",
     "Research Internships/QCRI/Latest Meeting Discussions.md",
     "Research Internships/QCRI/QCRI.canvas",
-    "CS/Robotics/Robotics_Overview.canvas",
     "UNIV 200.md",
     "attachments/Pasted image 20260203151921.png",
     "MCOM.md",
@@ -272,8 +278,6 @@
     "attachments/Pasted image 20260128135546.png",
     "attachments/Pasted image 20260128135432.png",
     "attachments/Pasted image 20260128135413.png",
-    "attachments/Pasted image 20260128135346.png",
-    "attachments/Pasted image 20260128135309.png",
     "Research Internships/QEERI/Internship Work  - TODO.md",
     "Research Internships/QEERI/How to become a great Research Assistant.md",
     "Research Internships/QEERI/Extraction System.md",
@@ -282,7 +286,6 @@
     "Research Internships/QEERI/Materials Informatics.md",
     "Best Youtubers Academics/Fiverr + Video Ideas.md",
     "AI Tools",
-    "Activity/Untitled.canvas",
     "Activity/Urgent.md",
     "CS/AI&ML/NLP.md",
     "CS/AI&ML/Untitled",
@@ -292,12 +295,10 @@
     "Research Internships/Research Tips.md",
     "Research Internships/QCRI",
     "Research Internships",
-    "QEERI/Untitled.md",
     "attachments/RA successs.pdf",
     "attachments/RA success",
     "Hackathons",
     "attachments/Physics-informed ML for materials science.pdf",
-    "Activity",
-    "Personal"
+    "Activity"
   ]
 }
