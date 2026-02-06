@@ -69,15 +69,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Research Internships/QCRI/QCRI.canvas",
+                "file": "CS/Robotics/Robotics_Overview.canvas",
                 "viewState": {
-                  "x": -1279,
-                  "y": -94.5,
-                  "zoom": -1.9163805218010528
+                  "x": 593.063979510423,
+                  "y": -304.1418714532113,
+                  "zoom": 0.3584409317242757
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "QCRI"
+              "title": "Robotics_Overview"
             }
           }
         ],
@@ -244,11 +244,13 @@
   },
   "active": "cf5501ec84ea9ba4",
   "lastOpenFiles": [
+    "CS/Robotics/Robotics lecture Info.md",
+    "Research Internships/QEERI/Patterns for each Parameter.md",
+    "Research Internships/QEERI/QEERI_Overview.canvas",
     "Research Internships/QCRI/Latest Meeting Discussions.md",
     "Research Internships/QCRI/QCRI.canvas",
     "CS/Robotics/Robotics_Overview.canvas",
     "UNIV 200.md",
-    "CS/Robotics/Robotics lecture Info.md",
     "attachments/Pasted image 20260203151921.png",
     "MCOM.md",
     "Arabic.md",
@@ -272,7 +274,6 @@
     "attachments/Pasted image 20260128135413.png",
     "attachments/Pasted image 20260128135346.png",
     "attachments/Pasted image 20260128135309.png",
-    "Research Internships/QEERI/QEERI_Overview.canvas",
     "Research Internships/QEERI/Internship Work  - TODO.md",
     "Research Internships/QEERI/How to become a great Research Assistant.md",
     "Research Internships/QEERI/Extraction System.md",
@@ -293,7 +294,6 @@
     "Research Internships",
     "QEERI/Untitled.md",
     "attachments/RA successs.pdf",
-    "attachments/RA success.md",
     "attachments/RA success",
     "Hackathons",
     "attachments/Physics-informed ML for materials science.pdf",
