@@ -173,6 +173,18 @@ Memorize or be comfortable with:
 
 If you like, I can next turn this into one‑page “prep notes” for pitching, with sample sentences and numbers you can quote directly in your presentation.
 
-Add to follow-up
 
-Check sources
+
+
+==============================================
+==TODO:== For Demo Day
+
+========================================
+Make the Problem statement easier on ppt
+How to handle Edge Cases
+Technical questions
+Wireframe - Showing all work
+Cater to all audience
+
+
+==========================================
