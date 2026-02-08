@@ -22,3 +22,5 @@ So the study area is basically: **NLP + databases**, with a verification flavor 
 
 ==02/02/2026==
 He sent emails 
+
+![[QCRI – Paraphrasing Project (09_02_2026).pptx]]
