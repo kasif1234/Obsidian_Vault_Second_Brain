@@ -24,3 +24,11 @@ So the study area is basically: **NLP + databases**, with a verification flavor 
 He sent emails 
 
 ![[QCRI – Paraphrasing Project (09_02_2026).pptx]]
+
+09/02/2026
+==
+TODO: 
+1. LR - In Email
+2. Get key phases and expand knowlede
+3.  ![[How-to-write-a-great-research-paper.pdf]]
+4. 

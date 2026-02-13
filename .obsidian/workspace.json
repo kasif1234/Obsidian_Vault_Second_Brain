@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research Internships/QCRI/Latest Meeting Discussions.md",
+                "file": "UNIV 200.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Latest Meeting Discussions"
+              "title": "UNIV 200"
             }
           }
         ],
@@ -255,22 +255,25 @@
   },
   "active": "754f95d782f719b2",
   "lastOpenFiles": [
-    "attachments/~$QCRI – Paraphrasing Project (09_02_2026).pptx",
-    "attachments/QCRI – Paraphrasing Project (09_02_2026).pptx",
+    "Hackathons/QRDI X Ibedrola.md",
+    "UNIV 200.md",
     "Research Internships/QCRI/QCRI.canvas",
     "Research Internships/QCRI/Latest Meeting Discussions.md",
+    "attachments/How-to-write-a-great-research-paper.pdf",
+    "Research Internships/QEERI/Internship Work  - TODO.md",
+    "attachments/Pasted image 20260209131632.png",
+    "attachments/~$QCRI – Paraphrasing Project (09_02_2026).pptx",
+    "Research Internships/UREP/Progress Tracker.md",
+    "Research Internships/UREP/UREP Canvas.canvas",
+    "attachments/QCRI – Paraphrasing Project (09_02_2026).pptx",
     "CS/Robotics/Robotics_Overview.canvas",
     "CS/Robotics/Robotics lecture Info.md",
-    "Research Internships/UREP/Progress Tracker.md",
-    "Hackathons/QRDI X Ibedrola.md",
-    "Research Internships/UREP/UREP Canvas.canvas",
     "attachments/Pasted image 20260206191328.png",
     "attachments/Pasted image 20260206191224.png",
     "attachments/Pasted image 20260206191210.png",
     "Research Internships/UREP",
     "Research Internships/QEERI/Patterns for each Parameter.md",
     "Research Internships/QEERI/QEERI_Overview.canvas",
-    "UNIV 200.md",
     "attachments/Pasted image 20260203151921.png",
     "MCOM.md",
     "Arabic.md",
@@ -289,8 +292,6 @@
     "Activity/Emotion Stabilizers.md",
     "Hackathons/Hackathon.canvas",
     "attachments/Pasted image 20260128135546.png",
-    "attachments/Pasted image 20260128135432.png",
-    "Research Internships/QEERI/Internship Work  - TODO.md",
     "Research Internships/QEERI/How to become a great Research Assistant.md",
     "Research Internships/QEERI/Extraction System.md",
     "Research Internships/QEERI/Agentic RAG Setup.md",
@@ -308,8 +309,6 @@
     "Research Internships/QCRI",
     "Research Internships",
     "attachments/RA successs.pdf",
-    "attachments/RA success",
-    "Hackathons",
-    "attachments/Physics-informed ML for materials science.pdf"
+    "attachments/RA success"
   ]
 }

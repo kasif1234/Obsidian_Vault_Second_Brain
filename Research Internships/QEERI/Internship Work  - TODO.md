@@ -64,3 +64,6 @@ Extraction from 2 papers combined {Log scaled graphs}
 19/01/2026
 20/01/2026
 polymer, solvent, dopant, doping method, doping level, film preparation method, thickness, annealing, σ, S, temperature, reference (DOI), evidence location
+
+==Last Tuesday (02/02/2026)==
+![[Pasted image 20260209131632.png]]
