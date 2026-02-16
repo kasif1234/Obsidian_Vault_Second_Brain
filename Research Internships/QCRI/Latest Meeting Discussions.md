@@ -31,4 +31,82 @@ TODO:
 1. LR - In Email
 2. Get key phases and expand knowlede
 3.  ![[How-to-write-a-great-research-paper.pdf]]
-4. 
+
+16/02/2026
+==
+1. How does Rayyan AI work?
+2. Domain: Question Paraphrasing
+3.  50 papers -> 10-20 Cite them -> Use 5 for comparison
+
+
+
+==
+## 1. Competitors (Text-to-SQL + Paraphrasing + Augmentation)
+
+- “Text-to-SQL Data Augmentation via Paraphrasing”
+    
+- “Paraphrase Generation for Text-to-SQL Benchmarks”
+    
+- “Benchmark Augmentation for Natural Language to SQL”
+    
+- “Synthetic Data Generation for Text-to-SQL”
+    
+- “Question Rewriting for Text-to-SQL”
+    
+- “Improving Text-to-SQL Generalization with Data Augmentation”
+    
+- “Large Language Models for Text-to-SQL Dataset Generation”
+    
+- “Schema-aware Paraphrasing for Text-to-SQL”
+    
+- “Template-based Text-to-SQL Data Generation”
+    
+- “Spider dataset augmentation paraphrase”
+    
+
+## 2. SQL Equivalence / Query Equivalence / Formal Verification
+
+- “SQL Query Equivalence Checking”
+    
+- “Query Equivalence Decider SQL”
+    
+- “Formal Verification of SQL Queries”
+    
+- “Bag Semantics Query Equivalence”
+    
+- “Constraint-based SQL Query Equivalence”
+    
+- “SMT-based SQL Query Equivalence”
+    
+- “Testing SQL Query Equivalence”
+    
+- “Proving Equivalence of SQL Queries”
+    
+- “Symbolic Execution for SQL Query Verification”
+    
+- “SQL Equivalence Verification Tool”
+    
+
+## 3. Diversity Metrics for Paraphrases
+
+- “Paraphrase Diversity Metrics”
+    
+- “Self-BLEU Diversity Evaluation”
+    
+- “Distinct-n Diversity Metric for Text Generation”
+    
+- “Lexical Diversity Metrics for Paraphrase Generation”
+    
+- “Measuring Diversity in Natural Language Generation”
+    
+- “Jaccard Similarity for Paraphrase Diversity”
+    
+- “Diversity-Promoting Text Generation”
+    
+- “Diversity Evaluation for Paraphrase Models”
+    
+- “N-gram overlap metrics for paraphrase diversity”
+    
+- “Semantic similarity vs diversity in paraphrase generation”
+    
+
