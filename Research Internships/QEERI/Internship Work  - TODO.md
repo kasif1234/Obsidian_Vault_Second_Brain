@@ -67,3 +67,21 @@ polymer, solvent, dopant, doping method, doping level, film preparation method, 
 
 ==Last Tuesday (02/02/2026)==
 ![[Pasted image 20260209131632.png]]
+
+13/02/2026
+==
+Extra Graphs I have come across
+![[Pasted image 20260217134359.png]]
+
+![[Pasted image 20260217134747.png]]
+![[Pasted image 20260217141438.png]]
+
+17/02/2026
+==
+
+![[Pasted image 20260217142455.png]]
+1) ==Transcribe Voice Recording==
+2) ==Doctor sent a paper through email==
+3) ![[Pasted image 20260217144622.png]]
+	1) Relate pf to monomer and others see trends
+	2) Add new column where u put the structure of the polymer
