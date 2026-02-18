@@ -90,9 +90,23 @@
               "icon": "lucide-file",
               "title": "Internship Work  - TODO"
             }
+          },
+          {
+            "id": "8fddc2dfd7e32913",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ex_Chem 103.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ex_Chem 103"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -253,8 +267,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "754f95d782f719b2",
+  "active": "8fddc2dfd7e32913",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260218074606.png",
+    "attachments/Pasted image 20260218063706.png",
+    "attachments/Pasted image 20260218063209.png",
+    "attachments/Pasted image 20260218063154.png",
+    "Research Internships/QEERI/Internship Work  - TODO.md",
+    "Ex_Chem 103.md",
     "attachments/Pasted image 20260217144622.png",
     "attachments/Pasted image 20260217142455.png",
     "attachments/Pasted image 20260217142451.png",
@@ -262,26 +282,21 @@
     "attachments/Pasted image 20260217134747.png",
     "attachments/Pasted image 20260217134359.png",
     "attachments/Pasted image 20260217134149.png",
-    "attachments/Pasted image 20260217133731.png",
     "Research Internships/QEERI/QEERI_Overview.canvas",
-    "Research Internships/QEERI/Internship Work  - TODO.md",
     "Research Internships/QCRI/Latest Meeting Discussions.md",
     "Research Internships/QCRI/QCRI.canvas",
     "Research Internships/QCRI/Related Work.md",
     "MCOM.md",
     "Research Internships/UREP/Progress Tracker.md",
-    "attachments/Pasted image 20260214103457.png",
     "Research Internships/UREP/UREP Canvas.canvas",
     "Research Internships/QEERI/Agentic RAG Setup.md",
     "Hackathons/QRDI X Ibedrola.md",
     "UNIV 200.md",
     "attachments/How-to-write-a-great-research-paper.pdf",
-    "attachments/Pasted image 20260209131632.png",
     "attachments/~$QCRI – Paraphrasing Project (09_02_2026).pptx",
     "attachments/QCRI – Paraphrasing Project (09_02_2026).pptx",
     "CS/Robotics/Robotics_Overview.canvas",
     "CS/Robotics/Robotics lecture Info.md",
-    "attachments/Pasted image 20260206191328.png",
     "Research Internships/UREP",
     "Research Internships/QEERI/Patterns for each Parameter.md",
     "Arabic.md",
@@ -306,7 +321,6 @@
     "CS/AI&ML/Untitled",
     "Research Internships/QEERI/NLP Python Libraries.md",
     "CS/AI&ML/Concepts.md",
-    "CS/Algorithms/C++ Explained.md",
     "Research Internships/QCRI",
     "Research Internships",
     "attachments/RA successs.pdf",
