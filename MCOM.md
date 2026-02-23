@@ -5,3 +5,4 @@ Exam Tips
 - Write Names
 - mcq, true and false
 - 3 essay questions - {}
+- Mid-Sample questions

@@ -1,3 +1,8 @@
+Strategy To get A
+==
+1) Get all data points from lecture first
+2) Then Do Lecture + Ace Projects
+
 Most Impacted SUBJECTS if the project becomes successful
 ==
 ![[Pasted image 20260218134310.png]]

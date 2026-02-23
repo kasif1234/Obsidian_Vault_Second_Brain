@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Robotics/Project.md",
+                "file": "MCOM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Project"
+              "title": "MCOM"
             }
           }
         ],
@@ -269,16 +269,18 @@
   },
   "active": "8fddc2dfd7e32913",
   "lastOpenFiles": [
-    "Research Internships/QEERI/Internship Work  - TODO.md",
+    "UNIV 200.md",
+    "CS/Robotics/Robotics lecture Info.md",
     "CS/Robotics/Project.md",
+    "CS/Robotics/Lecture Notes From Recordings First.md",
+    "CS/Robotics/Robotics_Overview.canvas",
+    "Research Internships/QEERI/Internship Work  - TODO.md",
     "Research Internships/QEERI/QEERI_Overview.canvas",
     "Best Youtubers Academics/Youtube Content creation.md",
     "attachments/Pasted image 20260219005637.png",
     "Best Youtubers Academics/Channel list.md",
-    "CS/Robotics/Robotics lecture Info.md",
     "attachments/Pasted image 20260218134310.png",
     "Research Internships/QCRI/QCRI.canvas",
-    "CS/Robotics/Robotics_Overview.canvas",
     "attachments/Pasted image 20260218125407.png",
     "attachments/Pasted image 20260218125347.png",
     "Ex_Chem 103.md",
@@ -295,7 +297,6 @@
     "Research Internships/UREP/UREP Canvas.canvas",
     "Research Internships/QEERI/Agentic RAG Setup.md",
     "Hackathons/QRDI X Ibedrola.md",
-    "UNIV 200.md",
     "attachments/How-to-write-a-great-research-paper.pdf",
     "attachments/~$QCRI – Paraphrasing Project (09_02_2026).pptx",
     "attachments/QCRI – Paraphrasing Project (09_02_2026).pptx",
@@ -320,7 +321,6 @@
     "Activity/Urgent.md",
     "CS/AI&ML/NLP.md",
     "CS/AI&ML/Untitled",
-    "Research Internships/QEERI/NLP Python Libraries.md",
     "Research Internships/QCRI",
     "Research Internships",
     "attachments/RA successs.pdf",
