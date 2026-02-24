@@ -29,3 +29,12 @@ Method-wise, SVM and Random Forest dominate behaviour detection, ANOVA and t-tes
 TODO:
 ![[Pasted image 20260214103457.png]]
 ![[Pasted image 20260223085046.png]]
+1. [Infrastructure] “How do we build a simulator that feels real enough to study behaviour?”
+2. [Experimental Design] “How do we properly design a driving behaviour experiment?”
+	1. {Different signage systems (normal signs vs flashing vs VMS signs)}
+3. [Scientific Credibility] “Can we trust behaviour results from simulators?”
+	1. - **Absolute validity** → Simulator results ≈ real-world results (no significant difference).
+	2. **Relative validity** → Trends are similar, even if numbers differ.
+4. [Experimental Comparison] “Does behaviour in simulator match behaviour in real road conditions?”
+	1. Survival analysis is a statistical method used to model **time until an event occurs**, while properly handling incomplete and non-normal data. They used it for reaction Time.
+5. [Behaviour Analysis & AI] “How do we detect unsafe driving behaviour using simulator data?”
