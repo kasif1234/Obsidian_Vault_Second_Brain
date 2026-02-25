@@ -95,17 +95,14 @@
             "id": "8fddc2dfd7e32913",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Research Internships/QEERI/QEERI_Overview.canvas",
-                "viewState": {
-                  "x": -1444.4376510344514,
-                  "y": 636.0860168943723,
-                  "zoom": -0.4157746771546678
-                }
+                "file": "Ex_Chem 103.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "QEERI_Overview"
+              "icon": "lucide-file",
+              "title": "Ex_Chem 103"
             }
           }
         ],
@@ -272,6 +269,7 @@
   },
   "active": "8fddc2dfd7e32913",
   "lastOpenFiles": [
+    "Research Internships/QEERI/QEERI_Overview.canvas",
     "Research Internships/QEERI/What Paper will look like.md",
     "Research Internships/UREP/Progress Tracker.md",
     "attachments/Pasted image 20260223085046.png",
@@ -282,7 +280,6 @@
     "CS/Robotics/Lecture Notes From Recordings First.md",
     "CS/Robotics/Robotics_Overview.canvas",
     "Research Internships/QEERI/Internship Work  - TODO.md",
-    "Research Internships/QEERI/QEERI_Overview.canvas",
     "Best Youtubers Academics/Youtube Content creation.md",
     "attachments/Pasted image 20260219005637.png",
     "Best Youtubers Academics/Channel list.md",
