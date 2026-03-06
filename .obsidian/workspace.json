@@ -97,16 +97,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ex_Chem 103.md",
+                "file": "MCOM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ex_Chem 103"
+              "title": "MCOM"
+            }
+          },
+          {
+            "id": "55b221d14cf73ac1",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Research Internships/QCRI/QCRI.canvas",
+                "viewState": {
+                  "x": 1891.3382598792646,
+                  "y": 2448.1910261198614,
+                  "zoom": -0.23430595296560733
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "QCRI"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -267,8 +284,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "8fddc2dfd7e32913",
+  "active": "55b221d14cf73ac1",
   "lastOpenFiles": [
+    "Research Internships/QCRI/Latest Meeting Discussions.md",
+    "Research Internships/QEERI/Internship Work  - TODO.md",
+    "attachments/Pasted image 20260305114253.png",
+    "Research Internships/QEERI/How to become a great Research Assistant.md",
+    "Ex_Chem 103.md",
     "Research Internships/QEERI/QEERI_Overview.canvas",
     "Research Internships/QEERI/What Paper will look like.md",
     "Research Internships/UREP/Progress Tracker.md",
@@ -279,7 +301,6 @@
     "CS/Robotics/Project.md",
     "CS/Robotics/Lecture Notes From Recordings First.md",
     "CS/Robotics/Robotics_Overview.canvas",
-    "Research Internships/QEERI/Internship Work  - TODO.md",
     "Best Youtubers Academics/Youtube Content creation.md",
     "attachments/Pasted image 20260219005637.png",
     "Best Youtubers Academics/Channel list.md",
@@ -287,13 +308,10 @@
     "Research Internships/QCRI/QCRI.canvas",
     "attachments/Pasted image 20260218125407.png",
     "attachments/Pasted image 20260218125347.png",
-    "Ex_Chem 103.md",
     "attachments/Pasted image 20260218074606.png",
     "attachments/Pasted image 20260218063706.png",
     "attachments/Pasted image 20260218063209.png",
     "attachments/Pasted image 20260218063154.png",
-    "attachments/Pasted image 20260217144622.png",
-    "Research Internships/QCRI/Latest Meeting Discussions.md",
     "Research Internships/QCRI/Related Work.md",
     "Research Internships/UREP/UREP Canvas.canvas",
     "Research Internships/QEERI/Agentic RAG Setup.md",
@@ -313,7 +331,6 @@
     "AI Tools/AI Tools Overview.canvas",
     "Activity/Emotion Stabilizers.md",
     "Hackathons/Hackathon.canvas",
-    "Research Internships/QEERI/How to become a great Research Assistant.md",
     "CS/Algorithms/Algorithms_Overview.canvas",
     "Research Internships/QEERI/Materials Informatics.md",
     "Best Youtubers Academics/Fiverr + Video Ideas.md",

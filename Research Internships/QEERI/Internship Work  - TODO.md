@@ -1,6 +1,11 @@
 ![[Pasted image 20260107061003.png]]
 
+Links:
+==
+==Google Sheet For Defining Descriptors:== https://docs.google.com/spreadsheets/d/122piahl4mlOd5kGcc6BvVGPtcvQFxxkrWEfRytfZJyg/edit?usp=sharing
+==Progress Tracker:== https://docs.google.com/spreadsheets/d/1UP7jh3AD3kfG3FoGLBdWjq7H3BCvrjcQTdSI2os8Mkw/edit?gid=0#gid=0
 ==OBJECTIVES==
+==
 
 These are pointers, take them deep and carry out intricate analysis
 1. Implement RAG system in python with local LLM
@@ -85,3 +90,5 @@ Extra Graphs I have come across
 3) ![[Pasted image 20260217144622.png]]
 	1) Relate pf to monomer and others see trends
 	2) Add new column where u put the structure of the polymer
+
+![[Pasted image 20260305114253.png]]
