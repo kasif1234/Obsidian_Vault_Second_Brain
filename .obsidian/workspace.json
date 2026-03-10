@@ -109,17 +109,14 @@
             "id": "55b221d14cf73ac1",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Research Internships/QCRI/QCRI.canvas",
-                "viewState": {
-                  "x": 1891.3382598792646,
-                  "y": 2448.1910261198614,
-                  "zoom": -0.23430595296560733
-                }
+                "file": "Research Internships/QCRI/Related Work.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "QCRI"
+              "icon": "lucide-file",
+              "title": "Related Work"
             }
           }
         ],
@@ -287,6 +284,8 @@
   "active": "55b221d14cf73ac1",
   "lastOpenFiles": [
     "Research Internships/QCRI/Latest Meeting Discussions.md",
+    "Research Internships/QCRI/Related Work.md",
+    "Research Internships/QCRI/QCRI.canvas",
     "Research Internships/QEERI/Internship Work  - TODO.md",
     "attachments/Pasted image 20260305114253.png",
     "Research Internships/QEERI/How to become a great Research Assistant.md",
@@ -305,14 +304,12 @@
     "attachments/Pasted image 20260219005637.png",
     "Best Youtubers Academics/Channel list.md",
     "attachments/Pasted image 20260218134310.png",
-    "Research Internships/QCRI/QCRI.canvas",
     "attachments/Pasted image 20260218125407.png",
     "attachments/Pasted image 20260218125347.png",
     "attachments/Pasted image 20260218074606.png",
     "attachments/Pasted image 20260218063706.png",
     "attachments/Pasted image 20260218063209.png",
     "attachments/Pasted image 20260218063154.png",
-    "Research Internships/QCRI/Related Work.md",
     "Research Internships/UREP/UREP Canvas.canvas",
     "Research Internships/QEERI/Agentic RAG Setup.md",
     "Hackathons/QRDI X Ibedrola.md",

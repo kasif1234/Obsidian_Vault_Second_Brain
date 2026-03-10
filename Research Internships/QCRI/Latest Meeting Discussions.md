@@ -110,3 +110,26 @@ TODO:
 - “Semantic similarity vs diversity in paraphrase generation”
     
 
+
+
+===
+09/03/2026
+==
+Analyze my literature review around these three themes. For each theme, identify the most relevant papers, extract the core method, evaluation approach, findings, limitations, and how each paper relates to my research goal. Organize the review by themes rather than paper-by-paper summary, and help me identify the research gap.
+
+Theme 1: SQL Equivalence  
+Research question: How can automatically generated Text-to-SQL paraphrases be verified to preserve the exact SQL meaning of the original question?  
+Focus on papers discussing execution-based validation, semantic equivalence, SQL-aware verification, NL-SQL correspondence checking, and methods beyond exact string match. Likely relevant/anchor papers: Text2SQL-Flow: A Robust SQL-Aware Data Augmentation Framework for Text-to-SQL, and Semantic Decomposition of Question and SQL for Text-to-SQL Parsing.
+
+Theme 2: Linguistic Diversity  
+Research question: How can linguistic diversity in Text-to-SQL paraphrases be measured and filtered so the generated questions are meaning-preserving but phrased differently enough to improve robustness?  
+Focus on papers discussing paraphrase diversity, realistic reformulations, lexical and structural variation, robustness to rewording, and filtering of semantically equivalent but linguistically diverse questions. Likely relevant/anchor papers: Improving Generalization in Semantic Parsing by Increasing Natural Language Variation in Training Data, and Evaluating NL2SQL via SQL2NL.
+
+Theme 3: Competitor / Comparative Methods  
+Research question: How does the proposed paraphrase-generation and validation pipeline compare with existing Text-to-SQL augmentation or robustness methods in producing correct and diverse training data?  
+Focus on competitor methods such as synonym substitution, adversarial robustness methods, LLM-based paraphrase generation, SQL-aware augmentation pipelines, and robustness-oriented data augmentation. Likely relevant/anchor papers: Towards Robustness of Text-to-SQL Models against Synonym Substitution, and Text2SQL-Flow: A Robust SQL-Aware Data Augmentation Framework for Text-to-SQL.
+
+Also keep this literature review purpose in mind:  
+A literature review means finding the most relevant papers on the topic, then extracting their main method, results, and limitations.  
+Next, compare papers by themes such as SQL equivalence, linguistic diversity, and robustness, instead of summarizing them one by one.  
+Finally, identify the gap: what existing work still does not solve, which becomes the motivation for my own study.
