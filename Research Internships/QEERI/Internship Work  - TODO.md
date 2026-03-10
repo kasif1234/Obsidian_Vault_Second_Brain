@@ -92,3 +92,9 @@ Extra Graphs I have come across
 	2) Add new column where u put the structure of the polymer
 
 ![[Pasted image 20260305114253.png]]
+
+Three Important Graphs to focus on
+==
+
+![[Pasted image 20260310153309.png]]
+
