@@ -98,3 +98,14 @@ Three Important Graphs to focus on
 
 ![[Pasted image 20260310153309.png]]
 
+Organic Compounds Vs Inorganic Compounds
+==
+**Organic = molecule-based carbon-chain material**  -> Contains Carbon atoms
+**Inorganic = crystal/compound-based solid material** -> Does not contain Carbon atoms
+
+A **compound** is any substance made of **two or more elements chemically joined** in a fixed ratio, like **H2O** or **Bi2Te3**.
+
+A **polymer** is a special kind of compound made of **many repeating small units called monomers** linked into a long chain, like **polyethylene** or **PBTTT**.
+![[Pasted image 20260313162651.png]]
+
+![[Pasted image 20260313163530.png]]
