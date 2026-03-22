@@ -162,6 +162,7 @@ Through the conversation, they identify these differences:
 
 Overall pipeline
 ==
+https://chatgpt.com/c/69bb3785-2ae8-8391-a8c0-b2599f31c50a
 ## Compare and contrast
 
 ### 1. Starting point
@@ -464,3 +465,38 @@ We use a 2-of-3 model agreement criterion to classify a paraphrase as valid beca
 If you want, I can turn this into a **left-vs-right comparison table** exactly matching your supervisor’s “same theme on the left” style.
 
 ==============================================================================================================================
+
+Strong experimental design
+==
+
+You can structure it like this:
+
+### Setting A: Common benchmark setting
+
+Both methods use:
+
+- same benchmark gold SQL
+- same schema
+- same original NL
+- same downstream NL2SQL evaluators
+
+This should be your **main fair comparison**.
+
+### Setting B: Extended generation setting
+
+Only as an extra experiment:
+
+- your pipeline generates new validated SQL–NL pairs
+
+This becomes an **extension**, not the main comparison.
+
+
+
+
+Paper Story
+==
+This paper presents a paraphrase validation framework for NL2SQL robustness evaluation. Unlike prior approaches that rely primarily on single-model execution outcomes or human confidence judgments, our method combines automatic semantic and diversity filtering with cross-model agreement over multiple NL2SQL parsers. By keeping benchmark inputs fixed and varying only the validation framework, we enable fair comparison with existing baselines. Experimental results show that majority-based agreement provides a more reliable criterion for paraphrase acceptance than either permissive single-model success or overly strict unanimous agreement.
+
+Another Paper Story
+==
+The current framework has several limitations that create opportunities for improvement. It relies on a single unified model for both SQL2NL and NL2SQL, which may introduce self-consistency bias, and evaluates robustness with only one downstream NL2SQL parser, making the results model-specific. Semantic validation depends on human confidence scoring, which is expensive and difficult to scale. In addition, the pipeline does not explicitly enforce paraphrase diversity, assumes the correct schema is already available, and does not address ambiguous, unanswerable, or multi-turn queries. Although execution-match accuracy is a strong metric, it may still hide semantic errors in cases where different SQL queries return the same result. The framework is also computationally costly and may not generalize well across broader real-world settings. These limitations suggest improvements through multi-model evaluation, automatic semantic and diversity filtering, schema retrieval integration, broader query types, and clearer acceptance criteria.

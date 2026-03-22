@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research Internships/QCRI/Latest Meeting Discussions.md",
+                "file": "Research Internships/UREP/Progress Tracker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Latest Meeting Discussions"
+              "title": "Progress Tracker"
             }
           }
         ],
@@ -283,9 +283,11 @@
   },
   "active": "55b221d14cf73ac1",
   "lastOpenFiles": [
+    "MCOM.md",
+    "UNIV 200.md",
+    "Research Internships/QCRI/Latest Meeting Discussions.md",
     "Research Internships/QCRI/QCRI.canvas",
     "Research Internships/QCRI/Related Work.md",
-    "Research Internships/QCRI/Latest Meeting Discussions.md",
     "Arabic.md",
     "attachments/Pasted image 20260315134647.png",
     "attachments/Pasted image 20260315134637.png",
@@ -302,8 +304,6 @@
     "Research Internships/QEERI/What Paper will look like.md",
     "Research Internships/UREP/Progress Tracker.md",
     "attachments/Pasted image 20260223085046.png",
-    "MCOM.md",
-    "UNIV 200.md",
     "CS/Robotics/Robotics lecture Info.md",
     "CS/Robotics/Project.md",
     "CS/Robotics/Lecture Notes From Recordings First.md",
