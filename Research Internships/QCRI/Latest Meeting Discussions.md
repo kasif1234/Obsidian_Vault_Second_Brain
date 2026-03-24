@@ -500,3 +500,403 @@ This paper presents a paraphrase validation framework for NL2SQL robustness eval
 Another Paper Story
 ==
 The current framework has several limitations that create opportunities for improvement. It relies on a single unified model for both SQL2NL and NL2SQL, which may introduce self-consistency bias, and evaluates robustness with only one downstream NL2SQL parser, making the results model-specific. Semantic validation depends on human confidence scoring, which is expensive and difficult to scale. In addition, the pipeline does not explicitly enforce paraphrase diversity, assumes the correct schema is already available, and does not address ambiguous, unanswerable, or multi-turn queries. Although execution-match accuracy is a strong metric, it may still hide semantic errors in cases where different SQL queries return the same result. The framework is also computationally costly and may not generalize well across broader real-world settings. These limitations suggest improvements through multi-model evaluation, automatic semantic and diversity filtering, schema retrieval integration, broader query types, and clearer acceptance criteria.
+
+Professor wants this as Related Work
+==
+Here is **everything he said about organizing the related work**, cleaned up and structured.
+
+## What he wants the related work to do
+
+He does **not** want the related work to be just a long list of papers.
+
+He wants it to:
+
+- support the **story of your pipeline**
+- match the **boxes/components** in your method
+- show the **context of the field**
+- separate **general background papers** from **competitors** and from **papers you directly reuse**
+
+So for him, related work is not just “who did what,” but more like:
+
+**What parts already exist, what gap remains, and where your method fits.**
+
+---
+
+## His main comments on your current organization
+
+### 1. The five themes are okay in spirit, but they need to be reorganized more clearly
+
+He said he agrees with the idea of having categories, but the categories should be aligned better with the actual pipeline and use clearer names.
+
+He felt some of your current labels were too vague.
+
+For example, he specifically said one category should simply be named:
+
+- **NL to SQL**
+
+instead of using a broader unclear description.
+
+---
+
+### 2. The related work should correspond to the boxes in your pipeline
+
+This was one of his biggest points.
+
+He said that if your pipeline has certain major modules, then the literature review should contain prior work for those modules.
+
+In other words:
+
+- each important box in the pipeline should be backed by some state-of-the-art discussion
+- if a component appears in your method, it should appear somewhere in the related work
+
+He even said:
+
+> we need to have a state of art for each box
+
+That means your literature review should not feel disconnected from the method section.
+
+---
+
+### 3. You are missing **SQL-to-NL** as a category
+
+He noticed this directly.
+
+He said your current categories cover things like:
+
+- schema to SQL / NL to SQL
+- evaluation metrics
+- diversification / augmentation
+- robustness / correction
+
+but they are missing:
+
+- **SQL to NL**
+
+And that matters because your pipeline includes a step where SQL is converted into natural language.
+
+So his point was:
+
+**if SQL-to-NL is part of your method, then SQL-to-NL papers must appear in the related work.**
+
+---
+
+## The structure he was steering you toward
+
+He basically reshaped your related work into something like this:
+
+### 1. General overview / survey papers
+
+These are papers that give the overall field context.
+
+He said these are useful, but you do not need too many of them.
+
+He suggested using only the most recent and most useful overview papers, not citing lots of survey papers unnecessarily.
+
+Purpose of this section:
+
+- introduce the field
+- show the broader problem space
+- establish motivation
+
+---
+
+### 2. Schema-to-SQL or NL-to-SQL generation
+
+He wanted this category to be named more directly and clearly.
+
+This is for papers focused on generating SQL from natural language or schema-aware setup.
+
+Purpose:
+
+- show the main task area your work belongs to
+- position your work relative to standard NL2SQL systems
+
+He basically said this row/category should clearly reflect:
+
+- **NL to SQL**  
+    or
+- **schema to SQL**
+
+depending on the exact framing.
+
+---
+
+### 3. SQL evaluation metrics / benchmarking
+
+He agreed this is a valid category.
+
+This section should cover papers that define how SQL generation quality is measured.
+
+Purpose:
+
+- explain the metrics used in your experiments
+- justify evaluation choices
+- connect your benchmarking protocol to prior work
+
+So if you later use execution accuracy, exact match, robustness metrics, etc., the supporting work should be here.
+
+---
+
+### 4. Natural language generation / paraphrasing / diversification
+
+He wanted this part adjusted quite a lot.
+
+He said your current “data augmentation and synthesis” category was not focused enough, because it included SQL-side diversification too, while your real interest is in:
+
+- **NL generation**
+- **NL paraphrasing**
+- **NL diversification**
+
+His key point was:
+
+Your work is mainly about generating **diverse but semantically aligned natural language questions**, not mainly about generating SQL.
+
+So this category should emphasize:
+
+- paraphrasing in general
+- paraphrasing for NL tied to SQL semantics
+- diversity in NL generation
+
+He also said even if some paraphrasing work is not specifically for SQL, it can still be relevant because your paraphraser itself operates on NL.
+
+So this section can include:
+
+- general paraphrasing literature
+- SQL-conditioned paraphrasing / SQL-to-NL-style paraphrasing
+- diversity-focused generation methods
+
+---
+
+### 5. SQL-to-NL
+
+This was the missing category he explicitly pointed out.
+
+Because your pipeline has a component where:
+
+- schema or SQL information is used
+- and a natural language question is produced
+
+you need a related-work category for SQL-to-NL.
+
+Purpose:
+
+- support that stage of your method
+- show prior ways people generated natural language from SQL
+- explain what exists before your approach
+
+He clearly said this category needs to be added.
+
+---
+
+### 6. Robustness / grounding / self-correction / verification-related work
+
+He also accepted the need for a category around robustness and verification.
+
+This would include work on:
+
+- grounding language to schema
+- validating outputs
+- self-correction
+- feedback/ranking-based improvements
+- robustness of NL2SQL systems
+
+Purpose:
+
+- support your semantic checking and verification logic
+- justify why robustness to paraphrasing matters
+- connect your method to prior attempts at improving reliability
+
+---
+
+## How he wants the categories to function
+
+He was not only talking about names. He also explained what each type of related work should do.
+
+He sees **three kinds of papers** in your literature review.
+
+### Type 1: Context papers
+
+These are overview or survey papers.
+
+They give the reader background, but are not necessarily directly used in your pipeline.
+
+Their job:
+
+- explain the field
+- define the broad problem
+- set context
+
+---
+
+### Type 2: Papers you directly reuse in your pipeline
+
+These are methods or components that you actually use as part of your system.
+
+For example:
+
+- a paraphrasing model
+- a validation method
+- a metric
+- a particular baseline component
+
+Their job:
+
+- justify technical choices in your method
+- show your pipeline is grounded in prior work
+
+He said if you use something in the experimental pipeline, it should appear in related work.
+
+---
+
+### Type 3: Competitor papers you want to improve or compare against
+
+These are the closest prior systems.
+
+These papers are very important because they help you tell the paper’s story:
+
+- this is the strongest existing approach
+- it has certain weaknesses
+- your system modifies or improves it
+- then you compare experimentally
+
+So for him, the related work should clearly separate:
+
+- broad field background
+- reusable building blocks
+- direct competitors
+
+---
+
+## He wants the related work to support the paper story
+
+He was very clear that the paper story should be something like this:
+
+1. there is existing work in the area
+2. one competitor is especially close to your task
+3. that competitor has weaknesses
+4. your method is designed to address those weaknesses
+5. your experiments compare against them fairly
+
+So your related work should gradually narrow down:
+
+- broad NL2SQL field
+- relevant subproblems
+- paraphrasing / SQL-to-NL / robustness components
+- closest competitor
+- gap your work fills
+
+---
+
+## His critique of your current “data augmentation” category
+
+He especially pushed back on this part.
+
+He said your current category mixes in SQL diversification papers, but your core contribution is not really about SQL diversification.
+
+His message was basically:
+
+- do not center the literature review around SQL augmentation if that is not your main story
+- center it around **NL paraphrasing/diversification with semantic alignment**
+
+So if you keep this category, it should be reframed to focus on:
+
+- NL generation
+- paraphrase diversity
+- semantic consistency
+
+not mainly synthetic SQL generation.
+
+---
+
+## What he implied about ordering
+
+He did not give a perfect final order sentence by sentence, but from what he said, the best order is roughly:
+
+1. **General surveys / overview of NL2SQL**
+2. **NL-to-SQL / schema-to-SQL systems**
+3. **SQL-to-NL generation**
+4. **NL paraphrasing / diversification / augmentation**
+5. **Robustness, grounding, self-correction, validation**
+6. **Evaluation metrics and benchmarks**
+7. **Closest competitors**
+
+You could swap metrics a bit earlier or later, but the main idea is:
+
+- start broad
+- move toward modules in your system
+- end with the closest competing approaches
+
+---
+
+## What he wants fixed in the writing style of related work
+
+He also indirectly commented on style.
+
+He wants:
+
+- clearer category names
+- less vague wording
+- less unnecessary detail on slides
+- more direct mapping to the method
+- more consistency in naming
+
+He kept saying that if something is the same concept, call it the same thing everywhere.
+
+So if you call a module:
+
+- “NL-to-SQL” in the method
+
+do not call it something else in the related work.
+
+That consistency helps the reader compare ideas easily.
+
+---
+
+## Best possible final interpretation of his expected related work structure
+
+This is probably the cleanest version of what he wants:
+
+### Section 2 Related Work
+
+**2.1 Overview of NL2SQL and database question answering**  
+General surveys and taxonomy papers.
+
+**2.2 NL-to-SQL and schema-aware SQL generation**  
+Core systems that map NL or schema context to SQL.
+
+**2.3 SQL-to-NL generation**  
+Work that generates natural language questions or descriptions from SQL.
+
+**2.4 Natural language paraphrasing and diversification**  
+General and SQL-related paraphrasing methods, especially diversity-preserving paraphrase generation.
+
+**2.5 Grounding, robustness, and verification**  
+Semantic correctness, schema grounding, self-correction, validation, and robustness to paraphrases.
+
+**2.6 Evaluation metrics and benchmarks**  
+Execution accuracy, exact match, robustness evaluation, Spider/BIRD-style benchmarks.
+
+**2.7 Closest competing frameworks**  
+The most similar pipelines, their strengths, and their weaknesses relative to your method.
+
+---
+
+## In one sentence
+
+What your professor wants is:
+
+**Organize the related work around the actual components of your pipeline, add the missing SQL-to-NL part, separate broad background from direct competitors, and make the literature review build toward the exact gap your method addresses.**
+
+I can also turn this into a **paper-ready related work outline with paragraph-by-paragraph headings**.
+
+
+
+Top Conferences for our work
+==
+- ACL
+- EMNLP
+- NAACL
+- COLING
+- SIGMOD
+- VLDB / PVLDB
+- ICDE
