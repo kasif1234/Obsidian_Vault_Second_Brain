@@ -138,3 +138,57 @@ Next action items
     - sending joystick commands
         
     - streaming camera feed back
+
+
+Understanding Projects
+==
+
+**Title:**  
+**==1. Getting Ready==**
+
+**Subsections:**  
+**1.1** Introduction to MasterPi -> 
+
+- 1.1.1 Product Introduction
+	- Master Pi Robot has a mecanum chasis, meaning it has omnidrectional wheels that are essential for 360 (Degree) movements, it uses the OpenCV library in python to perform various image processing tasks.
+- 1.1.2 Usage Precautions
+- 1.1.3 Copyright Notice
+- 1.1.4 Disclaimer
+
+**1.2** Packing List
+
+**1.3** Introduction to Raspberry Pi 5
+
+- 1.3.1 Brief Introduction of Raspberry Pi 5
+- 1.3.2 Hardware Structure and Feature
+- 1.3.3 Dimension Diagram
+- 1.3.4 The Use of Raspberry Pi
+
+**1.4** Burn Raspberry Pi Image
+
+- 1.4.1 Preparation
+- 1.4.2 Format SD Card
+- 1.4.3 Burn Image
+
+**1.5** Robot Assembly
+
+**1.6** Charging and Power-On Status Description
+
+- 1.6.1 Lithium Battery Charging and Installation
+- 1.6.2 Check Camera Connection
+- 1.6.3 Startup Instruction
+- 1.6.4 Activate Self-check Program
+- 1.6.5 Check Battery Level
+
+**1.7** Remote Desktop Installation and Connection
+
+- 1.7.1 Preparation
+- 1.7.2 Connect to Robot
+- 1.7.3 Introduction to Desktop
+
+**1.8** Adjust Pan-Tilt
+
+- 1.8.1 Whether the deviation needs to be adjusted
+- 1.8.2 The Causes of Deviation
+- 1.8.3 The Standard of Deviation Adjustment
+- 1.8.4 Adjustment Method
