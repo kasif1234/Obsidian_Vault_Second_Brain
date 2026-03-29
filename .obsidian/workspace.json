@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Robotics/Project.md",
+                "file": "CS/Maths For CS/Lecture 1 - Predicates, Sets, and proofs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Project"
+              "title": "Lecture 1 - Predicates, Sets, and proofs"
             }
           }
         ],
@@ -297,6 +297,11 @@
   },
   "active": "7b9354fd11953a13",
   "lastOpenFiles": [
+    "CS/Maths For CS/Maths_For_CS_Resources.md",
+    "CS/Maths For CS/Lecture 1 - Predicates, Sets, and proofs.md",
+    "CS/Algorithms/Divide and conquer.md",
+    "CS/Maths For CS",
+    "CS/Robotics/Project.md",
     "MCOM.md",
     "UNIV 200.md",
     "Research Internships/QCRI/QCRI.canvas",
@@ -319,7 +324,6 @@
     "Research Internships/QEERI/What Paper will look like.md",
     "attachments/Pasted image 20260223085046.png",
     "CS/Robotics/Robotics lecture Info.md",
-    "CS/Robotics/Project.md",
     "CS/Robotics/Lecture Notes From Recordings First.md",
     "CS/Robotics/Robotics_Overview.canvas",
     "Best Youtubers Academics/Youtube Content creation.md",
@@ -345,12 +349,9 @@
     "Activity/Emotion Stabilizers.md",
     "Hackathons/Hackathon.canvas",
     "CS/Algorithms/Algorithms_Overview.canvas",
-    "Research Internships/QEERI/Materials Informatics.md",
-    "Best Youtubers Academics/Fiverr + Video Ideas.md",
     "AI Tools",
     "CS/AI&ML/Untitled",
     "Research Internships/QCRI",
-    "Research Internships",
-    "attachments/RA successs.pdf"
+    "Research Internships"
   ]
 }
