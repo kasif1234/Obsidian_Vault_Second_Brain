@@ -109,3 +109,8 @@ A **polymer** is a special kind of compound made of **many repeating small units
 ![[Pasted image 20260313162651.png]]
 
 ![[Pasted image 20260313163530.png]]
+
+What Paper can be about
+==
+1. Current Database - Zenedo - Pure Organic Thermoelectric Polymers - Compare find pros and cons then merge some parts 
+2. So our paper will be, database merged + extraction methodology + Verification (SysTEM & grounding)
