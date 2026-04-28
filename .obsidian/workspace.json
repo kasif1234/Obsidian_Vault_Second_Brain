@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research Internships/QEERI/Internship Work  - TODO.md",
+                "file": "CS/Programming/Key Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Internship Work  - TODO"
+              "title": "Key Notes"
             }
           }
         ],
@@ -297,12 +297,16 @@
   },
   "active": "7b9354fd11953a13",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260428144201.png",
+    "CS/Backend/Practice.md",
+    "CS/Programming/Key Notes.md",
+    "Research Internships/QEERI/Internship Work  - TODO.md",
+    "CS/Programming",
     "CS/Robotics/Robotics lecture Info.md",
     "CS/Robotics/Project.md",
     "CS/Robotics/Robotics_Overview.canvas",
     "CS/Robotics/Lecture Notes From Recordings First.md",
     "Research Internships/QEERI/Schema.md",
-    "Research Internships/QEERI/Internship Work  - TODO.md",
     "CS/Maths For CS/Lecture 1 - Predicates, Sets, and proofs.md",
     "CS/Maths For CS/Maths_For_CS_Resources.md",
     "CS/Algorithms/Divide and conquer.md",
@@ -319,7 +323,6 @@
     "attachments/Pasted image 20260313163530.png",
     "attachments/Pasted image 20260313162651.png",
     "Research Internships/QEERI/QEERI_Overview.canvas",
-    "CS/Backend/Practice.md",
     "CS/Backend",
     "attachments/Pasted image 20260310153309.png",
     "attachments/Pasted image 20260305114253.png",
@@ -341,7 +344,6 @@
     "Research Internships/UREP",
     "Research Internships/QEERI/Patterns for each Parameter.md",
     "Hackathons/Snoonu's.md",
-    "Hackathons/Lifelines Hackathon CMUQ.md",
     "CS/GitHub/Commands.canvas",
     "Research Internships/How to Research.canvas",
     "CS/AI&ML/AI&ML_Overview.canvas",
@@ -350,7 +352,6 @@
     "CS/Algorithms/Algorithms_Overview.canvas",
     "AI Tools",
     "CS/AI&ML/Untitled",
-    "Research Internships/QCRI",
-    "Research Internships"
+    "Research Internships/QCRI"
   ]
 }
