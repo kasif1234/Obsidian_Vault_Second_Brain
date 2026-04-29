@@ -1,4 +1,0 @@
-1. Adding ==init== like this allows you to make that specific folder importable for example you {from src.models.llama_3_1_8B import llama}
- ![[Pasted image 20260428144201.png]]
- 2. ==import argparse== - This library allows you to parse specific arguments from the terminal, convert then to python objects to be used as inputs for your scripts
- 3. ==import sys & import os== - sys is to control the python interpreter, you can manage your code during runtime {read extra arguments from CL (sys.argv), exiting using sys.exit(), }  & os is to control operating system, allows you to mange files, folders and environment settings
