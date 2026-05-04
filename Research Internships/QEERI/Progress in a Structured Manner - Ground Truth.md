@@ -1,4 +1,4 @@
-==Overall Approach== 
+==Overall Approach== - Materials Informatics
 1. Dataset has to be prepared -> Establish a OTE Dataset just like Taylor Sparks {sysTEM}
 	1. Dataset has to include [Structure, Characterization, Property, Processing, Performance]
 2. Predict new OTE Structures/Property using Physics informed machine learning tasks
