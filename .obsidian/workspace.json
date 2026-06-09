@@ -191,7 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.50418853759766
+    "width": 200
   },
   "right": {
     "id": "1eae1bad183ffdad",
@@ -281,8 +281,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -297,15 +296,18 @@
   },
   "active": "7b9354fd11953a13",
   "lastOpenFiles": [
-    "Current Work/Robotics - Progress in a Structured Manner - Ground Truth.md",
-    "Arabic.md",
-    "Current Work/QEERI - Progress in a Structured Manner - Ground Truth 1.md",
-    "CS/GitHub/Commands.canvas",
-    "Current Work/Learn SE.md",
-    "Current Work/Template.md",
     "Current Work/QCRI - Progress in a Structured Manner - Ground Truth.md",
-    "Current Work/2QCRI- Progress in a Structured Manner - Ground Truth.md",
+    "Current Work/Template.md",
+    "Current Work/QEERI - Progress in a Structured Manner - Ground Truth 1.md",
+    "Current Work/Untitled.md",
+    "Current Work/Robotics - Progress in a Structured Manner - Ground Truth.md",
     "Current Work/UREP - Progress in a Structured Manner - Ground Truth.md",
+    "Current Work/Learn SE.md",
+    "Current Work/2QCRI- Progress in a Structured Manner - Ground Truth.md",
+    "attachments/Pasted image 20260515101630.png",
+    "CS/Backend/Practice.md",
+    "Arabic.md",
+    "CS/GitHub/Commands.canvas",
     "Research Internships/QCRI/Latest Meeting Discussions.md",
     "Research Internships/QEERI/Progress in a Structured Manner - Ground Truth.md",
     "Current Work 1",
@@ -317,7 +319,6 @@
     "Research Internships/QEERI/Materials Informatics.md",
     "CS/_Programming/_Key Notes.md",
     "attachments/Pasted image 20260428144201.png",
-    "CS/Backend/Practice.md",
     "Research Internships/QEERI/Internship Work  - TODO.md",
     "CS/_Programming",
     "CS/Robotics/Robotics lecture Info.md",
@@ -342,7 +343,6 @@
     "attachments/Pasted image 20260310153309.png",
     "attachments/Pasted image 20260305114253.png",
     "attachments/Pasted image 20260223085046.png",
-    "attachments/Pasted image 20260219005637.png",
     "Research Internships/UREP/UREP Canvas.canvas",
     "attachments/How-to-write-a-great-research-paper.pdf",
     "attachments/~$QCRI – Paraphrasing Project (09_02_2026).pptx",
