@@ -10,3 +10,9 @@ Same task, same AOIs, same reference labels — the only thing that differs betw
 ![[Pasted image 20260622130556.png]]
 
 ![[Pasted image 20260622130621.png]]
+
+
+
+
+_WHERE does SR help vegetation-change detection vs raw 10 m Sentinel-2?
+- 
