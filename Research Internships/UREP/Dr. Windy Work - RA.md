@@ -173,4 +173,14 @@ The implication is clear: the type of road on which a motorcycle crash occurs is
 ==========
 V
 ===================
-2. 
+1. Data processing part, we can create 3 scripts
+	1. QTTSC
+	2. Pitch and roll
+		1. Crosschecker
+
+
+
+![[Pasted image 20260707150054.png]]
+
+
+Full Data processing - Optimized Scripts + Verification Script checks
