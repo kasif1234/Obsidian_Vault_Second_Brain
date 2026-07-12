@@ -7,9 +7,55 @@
 
 ==Tasks done ==
 ===
-1. ECO to CSV {Done}
-2. Qu: {Segment video - start to end, & transcribe video using ocr software then user parser script to get output of the ocr tool which is a csv in a structured manner in another csv, merging csv, create S to Y column, then make sure values are consistent using the Target, then check column Q} [Doctor will figure this out and let me know]
-3. **Machine Learning **:![[Pasted image 20260616115405.png]] - Goal: Analyse these features and we need to see which one of these features contributes most to the target variable "severity". (Look in too: Why did the model make this sort of a prediction?) [SHAP, Explainable AI]
+1. ECO to CSV {Done} ->[
+MetroCount Traffic Executive
+Individual
+
+CustomList-25 -- English (ENG)
+
+Datasets: 
+Site:	[QFMP-ATC009_NB_L3] ^
+Attribute:	
+Direction:	1 - North bound, A trigger first. Lane: 0
+Survey Duration:	01:53 15 July 2021 => 00:25 18 July 2021,
+Zone:	
+File:	QFMP-ATC009_NB_L318Jul2021.EC0 (Plus )
+Identifier:	BX674QYH MC56-L5 [MC55] (c)Microcom 19Oct04
+Algorithm:	Factory default axle (v4.06)
+Data type:	Axle sensors - Paired (Class/Speed/Count)
+
+Profile:
+Filter time:	01:54 15 July 2021 => 00:25 18 July 2021 (2.93878)
+Included classes:	1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15
+Speed range:	0 - 130 mph.
+Direction:	North (bound), P = North
+Separation:	Headway > 0 sec, Span 0 - 100 metre
+Name:	Default Profile
+Scheme:	Vehicle classification (VRX)
+Units:	Part metric (metre, mi, m/s, mph, kg, tonne)
+
+Column Legend:
+ 0  [Date-Time] 	Full date and time
+ 1  [Speed] 	Vehicle speed
+ 2  [Dir] 	Direction code
+ 3  [Span] 	Vehicle span
+ 4  [Hdwy] 	Vehicle headway
+ 5  [Gap] 	Vehicle gap
+ 6  [Ax] 	Vehicle axles
+ 7  [Gp] 	Vehicle axle groups
+ 8  [Rho] 	Trigger correlation
+ 9  [Nm] 	Debug parameter
+10  [Cl] 	Vehicle class
+11  [Vehicle Pic] 	Vehicle picture
+
+
+          Date-Time Speed Dir  Span   Hdwy    Gap    Ax Gp  Rho       Nm Cl Vehicle Pic                                       
+2021-07-15 04:34:17   7.2   0   1.4 9572.3 9572.3     2  1 1.00      162 14 oo                                                
+
+In profile:	Vehicles = 1 / 20013 (0.00%)
+]
+1. Qu: {Segment video - start to end, & transcribe video using ocr software then user parser script to get output of the ocr tool which is a csv in a structured manner in another csv, merging csv, create S to Y column, then make sure values are consistent using the Target, then check column Q} [Doctor will figure this out and let me know]
+2. **Machine Learning **:![[Pasted image 20260616115405.png]] - Goal: Analyse these features and we need to see which one of these features contributes most to the target variable "severity". (Look in too: Why did the model make this sort of a prediction?) [SHAP, Explainable AI]
 # 7. The most reliable conclusion comes from agreement {I created a word document for this, MotorCycleCrash}
 
 A feature is considered **truly important** when:
@@ -184,3 +230,98 @@ V
 
 
 Full Data processing - Optimized Scripts + Verification Script checks
+
+
+
+
+- **Traffic data pipeline:** Converted Metro Count .EC0 files → structured CSV. 
+- **Motorcycle crash analysis (main work):** Ran 5 independent statistical/ML tests (descriptive, Chi-square, logistic regression, adjusted regression, Random Forest) on 48,582 crashes to find top driver of fatal outcomes.
+    - **Result:** Road functional class is the strongest, most consistent predictor of fatality - infrastructure matters more than rider behaviour.
+	- **ML feature-importance framework:** Defined strict criteria (SHAP + ablation + permutation + stability + significance must all agree) before calling a feature "important."
+- **Automated Data Extraction Process & Participants:** For each of the following, {VR, 3 Screen, Real World}, designed automated scripts based on speed, pitch & roll and verification scripts to crosscheck.
+	- For each Conducted pre and post questionnaires
+	- Completed 30/60 participants with 1 session remaining for each.
+		- 25% completed
+
+
+
+
+
+=========================================
+
+Subject: Progress Update: June 10 – July 12
+
+Dear Dr. Wahl and Dr. Qinat,
+
+I hope you are both doing well. Please find below a summary of the work I have completed between June 10th and July 11th, under the supervision of Dr. Windy.
+
+1. Traffic Data Pipeline
+- Converted MetroCount .EC0 files into structured CSV format for downstream analysis.
+
+2. Motorcycle Crash Analysis 
+- Ran five independent statistical/ML tests (descriptive analysis, chi-square, logistic regression, adjusted regression, and random forest) on 48,582 crash records to identify the top driver of fatal outcomes.
+- Result: Road functional class emerged as the strongest and most consistent predictor of fatality, indicating that infrastructure plays a greater role than rider behavior.
+- Developed an ML feature-importance framework, requiring SHAP, ablation, permutation, stability, and statistical significance to all agree before a feature is classified as "important."
+
+3. Automated Data Extraction Process & Participants (Main Work)
+- Designed automated scripts (based on speed, pitch, and roll) for each of the three study conditions: 3-screen, VR, and real world, along with verification scripts to crosscheck results.
+- Conducted pre- and post-session questionnaires for each condition.
+- Completed 30 out of 60 participants, with one session remaining for each.
+- Overall project completion stands at approximately 25%.
+
+Please let me know if you would like more detail on any of the above.
+
+Dr. Qinat, I also wanted to flag that Dr. Wahl's budget only covers my position through this month. As you are the principal investigator, could you please let us know whether there is a budget available on your end to extend my position for an additional month? I would appreciate your guidance on this so we can plan accordingly.
+
+Best regards,
+Mohammad Kasif
+
+=========================================
+
+
+
+# _Subject: Progress Update: June 10 – July 12_
+
+  
+
+Dear Dr. Wahl and Dr. Qinaat,
+
+I hope you are both doing well. Please find below a summary of the work I have completed between June 10th and July 12th, under the supervision of Dr. Windy.
+
+1. ## **Traffic Data Pipeline**
+    
+
+- Converted MetroCount .EC0 files into structured CSV format for downstream analysis.
+
+2. ## **Motorcycle Crash Analysis**
+    
+
+- Ran five independent statistical/ML tests (descriptive analysis, chi-square, logistic regression, adjusted regression, and random forest) on 48,582 crash records to identify the top driver of fatal outcomes.
+- Result: Road functional class emerged as the strongest and most consistent predictor of fatality, indicating that infrastructure plays a greater role than rider behavior.
+- Developed an ML feature-importance framework, requiring SHAP, ablation, permutation, stability, and statistical significance to all agree before a feature is classified as "important."
+
+3. ## **Automated Data Extraction Process & Participants** **(Main Work)**
+    
+
+- Designed automated scripts (based on speed, pitch, and roll) for each of the three study conditions: 3-screen, VR, and real world, along with verification scripts to crosscheck results.
+- Conducted pre- and post-session questionnaires for each condition.
+- Completed 30 out of 60 participants, with one session remaining for each.
+    
+- Participants were predominantly from South Asian countries, so my translation assistance was highly beneficial.
+    
+- Overall participant completion stands at approximately 25%.
+    
+
+## **Remaining Tasks (Subject to Change)**
+
+1. ## Participant Completion for the remaining 30 participants
+    
+2. Perform machine learning on the collected data to confidently establish the relationship between the simulator and real-world scenarios.
+    
+
+Please let me know if you would like more detail on any of the above.
+
+Dr. [@Qinaat Hussain](mailto:qinaat.hussain@qu.edu.qa), I also wanted to flag that Dr. Wahl's budget only covers my position through this month. As you are the principal investigator, could you please let us know whether there is a budget available on your end to extend my position for an additional month? I would appreciate your guidance on this so we can plan accordingly.
+
+Best regards,  
+Mohammad Kasif
